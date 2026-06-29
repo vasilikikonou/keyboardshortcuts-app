@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/keyboardshortcutsapp',
+  basePath: '/keyboardshortcuts-app',
   typescript: {
     ignoreBuildErrors: true,
   },
