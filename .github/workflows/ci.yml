@@ -1,0 +1,67 @@
+name: React App CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  # Job A: Ensure the code is healthy before doing anything else
+  lint-and-test:
+    name: Lint & Test Code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22' 
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      # Assuming you have these scripts in your package.json.
+      # If you don't have tests yet, you can comment the next line out.
+      - name: Run Tests
+        run: npm run test -- --watchAll=false 
+
+  # Job B: Build the Docker image and push it to the registry
+  build-and-push:
+    name: Build & Push Docker Image
+    runs-on: ubuntu-latest
+    needs: lint-and-test # This tells GitHub NOT to run this if the tests fail!
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # Buildx is a modern Docker tool that makes builds faster and allows caching
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # Log in to Docker Hub using secure secrets
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # Build and push the image. 
+      # We tag it with 'latest' and the specific Git commit hash for tracking.
+      - name: Build and Push to Docker Hub
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: |
+            ${{ secrets.DOCKERHUB_USERNAME }}/my-react-app:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/my-react-app:${{ github.sha }}
+          # Caching layers speeds up subsequent builds dramatically
+          cache-from: type=registry,ref=${{ secrets.DOCKERHUB_USERNAME }}/my-react-app:buildcache
+          cache-to: type=registry,ref=${{ secrets.DOCKERHUB_USERNAME }}/my-react-app:buildcache,mode=max
