@@ -1,2 +1,4 @@
-:HL["/keyboardshortcuts-app/_next/static/chunks/01vin.-6fao.m.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"O3QpAQxLa_m5HnykdFT8l"}
+:HL["/_next/static/chunks/0c0ry8kgn3cev.css","style"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
+0:{"b":"T6RvcMCUqQ81KT1x3z_pT","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

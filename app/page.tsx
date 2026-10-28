@@ -1,5 +1,5 @@
-import { ShortcutsExplorer } from "@/components/shortcuts-explorer"
+import KeysmithApp from "@/components/KeysmithApp";
 
-export default function Page() {
-  return <ShortcutsExplorer />
+export default function HomePage() {
+  return <KeysmithApp />;
 }

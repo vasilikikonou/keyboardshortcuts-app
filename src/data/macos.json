@@ -1,0 +1,1054 @@
+[
+  {
+    "id": "macos-copy",
+    "title": "Copy",
+    "description": "Copy selected text or a selected Finder item to the Clipboard.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "C"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-cut",
+    "title": "Cut",
+    "description": "Cut the selected text and place it on the Clipboard.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "X"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-paste",
+    "title": "Paste",
+    "description": "Paste Clipboard contents into the current document or Finder location.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "V"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-undo",
+    "title": "Undo",
+    "description": "Reverse the most recent command in the current app.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Z"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-redo",
+    "title": "Redo",
+    "description": "Reverse the previous undo in apps that support redo.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Shift",
+        "Cmd",
+        "Z"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-select-all",
+    "title": "Select All",
+    "description": "Select all items or text in the active view or document.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "A"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-find",
+    "title": "Find",
+    "description": "Find text in a document or open the app’s Find interface.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "F"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-find-next",
+    "title": "Find Next",
+    "description": "Jump to the next occurrence of the most recently searched text.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Intermediate",
+    "task": "Search",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "G"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-find-previous",
+    "title": "Find Previous",
+    "description": "Jump to the previous occurrence of the most recently searched text.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Intermediate",
+    "task": "Search",
+    "keys": {
+      "mac": [
+        "Shift",
+        "Cmd",
+        "G"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-save",
+    "title": "Save",
+    "description": "Save changes to the current document when the app supports saving.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "S"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-open",
+    "title": "Open",
+    "description": "Open the selected item or show a dialog to choose a file.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "O"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-print",
+    "title": "Print",
+    "description": "Open the print dialog for the current document or view.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Intermediate",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "P"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-new-tab",
+    "title": "New Tab",
+    "description": "Open a new tab in apps that support tabs.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "T"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-close-window",
+    "title": "Close Window",
+    "description": "Close the front window without necessarily quitting its app.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "W"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-close-all-windows",
+    "title": "Close All App Windows",
+    "description": "Close all windows belonging to the active app; the app may remain open.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Option",
+        "Cmd",
+        "W"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-quit",
+    "title": "Quit App",
+    "description": "Quit the active app.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "System",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Q"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-minimize",
+    "title": "Minimize Window",
+    "description": "Minimize the front window to the Dock.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "M"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-hide-app",
+    "title": "Hide App",
+    "description": "Hide all windows of the front app without quitting it.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "H"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-hide-others",
+    "title": "Hide Other Apps",
+    "description": "Hide every app except the front app.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Option",
+        "Cmd",
+        "H"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-switch-app",
+    "title": "Switch to Next App",
+    "description": "Cycle to the next most recently used open app; release Command to activate it.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Tab"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-switch-app-window",
+    "title": "Switch App Windows",
+    "description": "Cycle between windows of the current app; the accent key is usually above Tab on a US keyboard.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "`"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-settings",
+    "title": "Open App Settings",
+    "description": "Open settings or preferences for the front app, when available.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "System",
+    "keys": {
+      "mac": [
+        "Cmd",
+        ","
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-spotlight",
+    "title": "Spotlight Search",
+    "description": "Show or hide the Spotlight search field; some input-source configurations may change this shortcut.",
+    "category": "macos",
+    "app": "Spotlight",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Space"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-spotlight-finder",
+    "title": "Search from Finder",
+    "description": "Start a Spotlight search from a Finder window.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Intermediate",
+    "task": "Search",
+    "keys": {
+      "mac": [
+        "Option",
+        "Cmd",
+        "Space"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-force-quit",
+    "title": "Force Quit App",
+    "description": "Open the Force Quit window to close an unresponsive app.",
+    "category": "macos",
+    "app": "macOS",
+    "level": "Intermediate",
+    "task": "System",
+    "keys": {
+      "mac": [
+        "Option",
+        "Cmd",
+        "Esc"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-character-viewer",
+    "title": "Character Viewer",
+    "description": "Show Character Viewer to browse emoji and other symbols.",
+    "category": "macos",
+    "app": "Character Viewer",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Control",
+        "Cmd",
+        "Space"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-full-screen",
+    "title": "Toggle Full Screen",
+    "description": "Enter or leave full-screen mode if the active app supports it.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Control",
+        "Cmd",
+        "F"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-quick-look",
+    "title": "Quick Look",
+    "description": "Preview the selected Finder item without opening its app.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Space"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-lock-screen",
+    "title": "Lock Screen",
+    "description": "Lock your Mac’s screen while leaving your session open.",
+    "category": "macos",
+    "app": "macOS",
+    "level": "Beginner",
+    "task": "System",
+    "keys": {
+      "mac": [
+        "Control",
+        "Cmd",
+        "Q"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-mission-control",
+    "title": "Mission Control",
+    "description": "Show open windows and desktop spaces; the shortcut can be changed in Keyboard settings.",
+    "category": "macos",
+    "app": "Mission Control",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Control",
+        "Up Arrow"
+      ]
+    },
+    "source": "https://support.apple.com/guide/mac-help/view-open-windows-spaces-mission-control-mh35798/mac"
+  },
+  {
+    "id": "macos-app-expose",
+    "title": "App Exposé",
+    "description": "Show all open windows for the current app; requires the keyboard shortcut to be enabled.",
+    "category": "macos",
+    "app": "Mission Control",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Control",
+        "Down Arrow"
+      ]
+    },
+    "source": "https://support.apple.com/guide/mac-help/view-open-windows-spaces-mission-control-mh35798/mac"
+  },
+  {
+    "id": "macos-show-desktop",
+    "title": "Show Desktop",
+    "description": "Move open windows aside to reveal the desktop; use the same shortcut to restore them.",
+    "category": "macos",
+    "app": "macOS",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Mission Control"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-window-fill",
+    "title": "Fill Active Window",
+    "description": "Expand the active window to fill the desktop; available with macOS window tiling shortcuts.",
+    "category": "macos",
+    "app": "macOS Window Tiling",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Fn",
+        "Control",
+        "F"
+      ]
+    },
+    "source": "https://support.apple.com/guide/mac-help/mac-window-tiling-icons-keyboard-shortcuts-mchl9674d0b0/mac"
+  },
+  {
+    "id": "macos-window-left",
+    "title": "Tile Window Left",
+    "description": "Move the active window to the left half of the desktop.",
+    "category": "macos",
+    "app": "macOS Window Tiling",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Fn",
+        "Control",
+        "Left Arrow"
+      ]
+    },
+    "source": "https://support.apple.com/guide/mac-help/mac-window-tiling-icons-keyboard-shortcuts-mchl9674d0b0/mac"
+  },
+  {
+    "id": "macos-window-right",
+    "title": "Tile Window Right",
+    "description": "Move the active window to the right half of the desktop.",
+    "category": "macos",
+    "app": "macOS Window Tiling",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Fn",
+        "Control",
+        "Right Arrow"
+      ]
+    },
+    "source": "https://support.apple.com/guide/mac-help/mac-window-tiling-icons-keyboard-shortcuts-mchl9674d0b0/mac"
+  },
+  {
+    "id": "macos-window-split-left-right",
+    "title": "Arrange Windows Left and Right",
+    "description": "Tile the active window left and a second window right; a second window must be available.",
+    "category": "macos",
+    "app": "macOS Window Tiling",
+    "level": "Advanced",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Fn",
+        "Control",
+        "Shift",
+        "Left Arrow"
+      ]
+    },
+    "source": "https://support.apple.com/guide/mac-help/mac-window-tiling-icons-keyboard-shortcuts-mchl9674d0b0/mac"
+  },
+  {
+    "id": "macos-screenshot-full",
+    "title": "Capture Entire Screen",
+    "description": "Save a screenshot of the entire screen to the desktop by default.",
+    "category": "macos",
+    "app": "Screenshot",
+    "level": "Beginner",
+    "task": "System",
+    "keys": {
+      "mac": [
+        "Shift",
+        "Cmd",
+        "3"
+      ]
+    },
+    "source": "https://support.apple.com/guide/mac-help/take-a-screenshot-mh26782/mac"
+  },
+  {
+    "id": "macos-screenshot-selection",
+    "title": "Capture Selected Area",
+    "description": "Start a crosshair selection for a screen region, then drag to capture it; saved to desktop by default.",
+    "category": "macos",
+    "app": "Screenshot",
+    "level": "Beginner",
+    "task": "System",
+    "keys": {
+      "mac": [
+        "Shift",
+        "Cmd",
+        "4"
+      ]
+    },
+    "source": "https://support.apple.com/guide/mac-help/take-a-screenshot-mh26782/mac"
+  },
+  {
+    "id": "macos-screenshot-window",
+    "title": "Capture Window or Menu Bar",
+    "description": "Press the shortcut, then Space and click the highlighted window or menu bar item.",
+    "category": "macos",
+    "app": "Screenshot",
+    "level": "Intermediate",
+    "task": "System",
+    "keys": {
+      "mac": [
+        "Shift",
+        "Cmd",
+        "4",
+        "Space"
+      ]
+    },
+    "sequence": true,
+    "source": "https://support.apple.com/guide/mac-help/take-a-screenshot-mh26782/mac"
+  },
+  {
+    "id": "macos-screenshot-tools",
+    "title": "Open Screenshot Controls",
+    "description": "Open the Screenshot panel for capture and recording options; available in macOS Mojave or later.",
+    "category": "macos",
+    "app": "Screenshot",
+    "level": "Beginner",
+    "task": "System",
+    "keys": {
+      "mac": [
+        "Shift",
+        "Cmd",
+        "5"
+      ]
+    },
+    "source": "https://support.apple.com/guide/mac-help/take-a-screenshot-mh26782/mac"
+  },
+  {
+    "id": "macos-screenshot-touchbar",
+    "title": "Capture Touch Bar",
+    "description": "Capture an image of the Touch Bar on Mac models that have one.",
+    "category": "macos",
+    "app": "Screenshot",
+    "level": "Advanced",
+    "task": "System",
+    "keys": {
+      "mac": [
+        "Shift",
+        "Cmd",
+        "6"
+      ]
+    },
+    "source": "https://support.apple.com/guide/mac-help/take-a-screenshot-mh26782/mac"
+  },
+  {
+    "id": "macos-finder-new-window",
+    "title": "New Finder Window",
+    "description": "Open a new Finder window.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "N"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-new-folder",
+    "title": "New Folder",
+    "description": "Create an empty folder in the Finder.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Shift",
+        "Cmd",
+        "N"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-folder-from-selection",
+    "title": "New Folder with Selection",
+    "description": "Create a folder containing the currently selected Finder items.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Intermediate",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Control",
+        "Cmd",
+        "N"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-duplicate",
+    "title": "Duplicate Item",
+    "description": "Duplicate the selected Finder files.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "D"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-get-info",
+    "title": "Get Info",
+    "description": "Show the information window for the selected Finder item.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "I"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-trash",
+    "title": "Move to Trash",
+    "description": "Move the selected Finder item to the Trash.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Delete"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-eject",
+    "title": "Eject Volume",
+    "description": "Eject the selected disk or volume in Finder.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Intermediate",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "E"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-go-folder",
+    "title": "Go to Folder",
+    "description": "Open Finder’s Go to Folder dialog to enter a location.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "keys": {
+      "mac": [
+        "Shift",
+        "Cmd",
+        "G"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-home",
+    "title": "Open Home Folder",
+    "description": "Open the current macOS user’s Home folder in Finder.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "mac": [
+        "Shift",
+        "Cmd",
+        "H"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-downloads",
+    "title": "Open Downloads",
+    "description": "Open the Downloads folder in Finder.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "mac": [
+        "Option",
+        "Cmd",
+        "L"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-documents",
+    "title": "Open Documents",
+    "description": "Open the Documents folder in Finder.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "mac": [
+        "Shift",
+        "Cmd",
+        "O"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-recents",
+    "title": "Open Recents",
+    "description": "Show files recently viewed or changed in Finder.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "mac": [
+        "Shift",
+        "Cmd",
+        "F"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-view-list",
+    "title": "List View",
+    "description": "Show Finder items in list view.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "2"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-parent",
+    "title": "Open Parent Folder",
+    "description": "Open the folder containing the current Finder folder.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Up Arrow"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-open-selected",
+    "title": "Open Selected Item",
+    "description": "Open the selected Finder item in its associated app.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Down Arrow"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-quicklook",
+    "title": "Quick Look Selected Files",
+    "description": "Preview selected files in Finder using Quick Look.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Y"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-finder-show-path",
+    "title": "Toggle Path Bar",
+    "description": "Show or hide the path bar in Finder windows.",
+    "category": "macos",
+    "app": "Finder",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "keys": {
+      "mac": [
+        "Option",
+        "Cmd",
+        "P"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-text-line-start",
+    "title": "Move to Line Start",
+    "description": "Move the insertion point to the beginning of the current line in most text apps.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Left Arrow"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-text-line-end",
+    "title": "Move to Line End",
+    "description": "Move the insertion point to the end of the current line in most text apps.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Right Arrow"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-text-document-start",
+    "title": "Move to Document Start",
+    "description": "Move the insertion point to the beginning of the document in supported text fields.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Up Arrow"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-text-document-end",
+    "title": "Move to Document End",
+    "description": "Move the insertion point to the end of the document in supported text fields.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Down Arrow"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-text-delete-line-start",
+    "title": "Delete to Line Start",
+    "description": "Delete text from the insertion point to the beginning of the line in supported text fields.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Advanced",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Control",
+        "A"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "macos-text-delete-line-end",
+    "title": "Delete to Line End",
+    "description": "Delete text from the insertion point to the end of the line in supported text fields.",
+    "category": "macos",
+    "app": "Universal basics",
+    "level": "Advanced",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Control",
+        "K"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  }
+]

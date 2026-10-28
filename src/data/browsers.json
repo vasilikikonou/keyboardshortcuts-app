@@ -1,0 +1,1468 @@
+[
+  {
+    "id": "browsers-001",
+    "title": "New tab",
+    "description": "Open a new tab.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "T"
+      ],
+      "linux": [
+        "Ctrl",
+        "T"
+      ],
+      "mac": [
+        "Cmd",
+        "T"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-002",
+    "title": "Close tab",
+    "description": "Close the current tab.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "W"
+      ],
+      "linux": [
+        "Ctrl",
+        "W"
+      ],
+      "mac": [
+        "Cmd",
+        "W"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-003",
+    "title": "Reopen closed tab",
+    "description": "Restore the most recently closed tab.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "T"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "T"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "T"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-004",
+    "title": "New window",
+    "description": "Open a new browser window.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "N"
+      ],
+      "linux": [
+        "Ctrl",
+        "N"
+      ],
+      "mac": [
+        "Cmd",
+        "N"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-005",
+    "title": "New Incognito window",
+    "description": "Open an Incognito window.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "N"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "N"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-006",
+    "title": "Next tab",
+    "description": "Move to the next tab.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Tab"
+      ],
+      "linux": [
+        "Ctrl",
+        "Tab"
+      ],
+      "mac": [
+        "Ctrl",
+        "Tab"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-007",
+    "title": "Previous tab",
+    "description": "Move to the previous tab.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "Tab"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "Tab"
+      ],
+      "mac": [
+        "Ctrl",
+        "Shift",
+        "Tab"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-008",
+    "title": "Select tab 1–8",
+    "description": "Jump directly to tab 1 through 8.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "1–8"
+      ],
+      "linux": [
+        "Ctrl",
+        "1–8"
+      ],
+      "mac": [
+        "Cmd",
+        "1–8"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-009",
+    "title": "Select last tab",
+    "description": "Jump to the last tab.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "9"
+      ],
+      "linux": [
+        "Ctrl",
+        "9"
+      ],
+      "mac": [
+        "Cmd",
+        "9"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-010",
+    "title": "Focus address bar",
+    "description": "Select the address bar for a URL or search.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "L"
+      ],
+      "linux": [
+        "Ctrl",
+        "L"
+      ],
+      "mac": [
+        "Cmd",
+        "L"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-011",
+    "title": "Reload page",
+    "description": "Reload the current page.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "R"
+      ],
+      "linux": [
+        "Ctrl",
+        "R"
+      ],
+      "mac": [
+        "Cmd",
+        "R"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-012",
+    "title": "Hard reload",
+    "description": "Reload while bypassing cached content.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "R"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "R"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "R"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-013",
+    "title": "Go back",
+    "description": "Return to the previous page.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Alt",
+        "Left"
+      ],
+      "linux": [
+        "Alt",
+        "Left"
+      ],
+      "mac": [
+        "Cmd",
+        "["
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-014",
+    "title": "Go forward",
+    "description": "Advance to the next page in history.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Alt",
+        "Right"
+      ],
+      "linux": [
+        "Alt",
+        "Right"
+      ],
+      "mac": [
+        "Cmd",
+        "]"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-015",
+    "title": "Find on page",
+    "description": "Find text on the current page.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "F"
+      ],
+      "linux": [
+        "Ctrl",
+        "F"
+      ],
+      "mac": [
+        "Cmd",
+        "F"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-016",
+    "title": "Open downloads",
+    "description": "Open the downloads page.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "J"
+      ],
+      "linux": [
+        "Ctrl",
+        "J"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "J"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-017",
+    "title": "Bookmark page",
+    "description": "Bookmark the current page.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "D"
+      ],
+      "linux": [
+        "Ctrl",
+        "D"
+      ],
+      "mac": [
+        "Cmd",
+        "D"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-018",
+    "title": "Print page",
+    "description": "Open print dialog.",
+    "category": "browsers",
+    "app": "Google Chrome",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "P"
+      ],
+      "linux": [
+        "Ctrl",
+        "P"
+      ],
+      "mac": [
+        "Cmd",
+        "P"
+      ]
+    },
+    "source": "https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop"
+  },
+  {
+    "id": "browsers-026",
+    "title": "New tab",
+    "description": "Open a new tab.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "T"
+      ],
+      "linux": [
+        "Ctrl",
+        "T"
+      ],
+      "mac": [
+        "Cmd",
+        "T"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-027",
+    "title": "Close tab",
+    "description": "Close the current tab; pinned tabs are excluded.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "W"
+      ],
+      "linux": [
+        "Ctrl",
+        "W"
+      ],
+      "mac": [
+        "Cmd",
+        "W"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-028",
+    "title": "Reopen closed tab",
+    "description": "Reopen the last closed tab or window.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "T"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "T"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "T"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-029",
+    "title": "New window",
+    "description": "Open a new window.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "N"
+      ],
+      "linux": [
+        "Ctrl",
+        "N"
+      ],
+      "mac": [
+        "Cmd",
+        "N"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-030",
+    "title": "New private window",
+    "description": "Open a private browsing window.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "P"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "P"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "P"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-031",
+    "title": "Focus address bar",
+    "description": "Focus the address bar.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "L"
+      ],
+      "linux": [
+        "Ctrl",
+        "L"
+      ],
+      "mac": [
+        "Cmd",
+        "L"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-032",
+    "title": "Reload page",
+    "description": "Reload the current page.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "R"
+      ],
+      "linux": [
+        "Ctrl",
+        "R"
+      ],
+      "mac": [
+        "Cmd",
+        "R"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-033",
+    "title": "Hard reload",
+    "description": "Reload and override cache.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "R"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "R"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "R"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-034",
+    "title": "Go back",
+    "description": "Go to the previous page.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Alt",
+        "Left"
+      ],
+      "linux": [
+        "Alt",
+        "Left"
+      ],
+      "mac": [
+        "Cmd",
+        "Left"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-035",
+    "title": "Go forward",
+    "description": "Go to the next page.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Alt",
+        "Right"
+      ],
+      "linux": [
+        "Alt",
+        "Right"
+      ],
+      "mac": [
+        "Cmd",
+        "Right"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-036",
+    "title": "Find on page",
+    "description": "Find text on this page.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "F"
+      ],
+      "linux": [
+        "Ctrl",
+        "F"
+      ],
+      "mac": [
+        "Cmd",
+        "F"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-037",
+    "title": "Find next",
+    "description": "Move to the next match.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Intermediate",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "G"
+      ],
+      "linux": [
+        "Ctrl",
+        "G"
+      ],
+      "mac": [
+        "Cmd",
+        "G"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-038",
+    "title": "Find previous",
+    "description": "Move to the previous match.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Intermediate",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "G"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "G"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "G"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-039",
+    "title": "Open downloads",
+    "description": "Open the Downloads panel or library.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "J"
+      ],
+      "linux": [
+        "Ctrl",
+        "J"
+      ],
+      "mac": [
+        "Cmd",
+        "J"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-040",
+    "title": "Bookmark page",
+    "description": "Bookmark the current page.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "D"
+      ],
+      "linux": [
+        "Ctrl",
+        "D"
+      ],
+      "mac": [
+        "Cmd",
+        "D"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-041",
+    "title": "Print page",
+    "description": "Print the current page.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "P"
+      ],
+      "linux": [
+        "Ctrl",
+        "P"
+      ],
+      "mac": [
+        "Cmd",
+        "P"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-042",
+    "title": "Save page",
+    "description": "Save the current page.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Intermediate",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "S"
+      ],
+      "linux": [
+        "Ctrl",
+        "S"
+      ],
+      "mac": [
+        "Cmd",
+        "S"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-043",
+    "title": "Zoom in",
+    "description": "Increase page zoom.",
+    "category": "browsers",
+    "app": "Mozilla Firefox",
+    "level": "Beginner",
+    "task": "Accessibility",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "+"
+      ],
+      "linux": [
+        "Ctrl",
+        "+"
+      ],
+      "mac": [
+        "Cmd",
+        "+"
+      ]
+    },
+    "source": "https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly"
+  },
+  {
+    "id": "browsers-056",
+    "title": "New tab",
+    "description": "Open and switch to a new tab.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "T"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-057",
+    "title": "Close tab",
+    "description": "Close the current tab.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "W"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-058",
+    "title": "Reopen closed tab",
+    "description": "Reopen the last closed tab.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "T"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-059",
+    "title": "New window",
+    "description": "Open a new window.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "N"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-060",
+    "title": "New InPrivate window",
+    "description": "Open a private InPrivate window.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "N"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-061",
+    "title": "Next tab",
+    "description": "Switch to the next tab.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Tab"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-062",
+    "title": "Previous tab",
+    "description": "Switch to the previous tab.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "Tab"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-063",
+    "title": "Go to tab 1–8",
+    "description": "Select a tab by its position.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "1–8"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-064",
+    "title": "Go to last tab",
+    "description": "Select the last tab.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "9"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-065",
+    "title": "Focus address bar",
+    "description": "Select the address for editing.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "L"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-066",
+    "title": "Reload page",
+    "description": "Reload the current page.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "R"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-067",
+    "title": "Hard reload",
+    "description": "Reload ignoring cached content.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "R"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-068",
+    "title": "Go back",
+    "description": "Go to the previous page.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Alt",
+        "Left"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-069",
+    "title": "Go forward",
+    "description": "Go to the next page.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Alt",
+        "Right"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-070",
+    "title": "Find on page",
+    "description": "Open find on page.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "F"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-071",
+    "title": "Find next result",
+    "description": "Jump to the next find result.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Intermediate",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "G"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-072",
+    "title": "Open downloads",
+    "description": "Open Downloads.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "J"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-073",
+    "title": "Bookmark page",
+    "description": "Save the current tab as a favorite.",
+    "category": "browsers",
+    "app": "Microsoft Edge",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "D"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/edge/keyboard-shortcuts-in-microsoft-edge"
+  },
+  {
+    "id": "browsers-086",
+    "title": "New tab",
+    "description": "Open a webpage in a new tab.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "T"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-087",
+    "title": "Close tab",
+    "description": "Close the active tab.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "W"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-088",
+    "title": "Reopen closed tab",
+    "description": "Reopen the last tab or window closed.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Shift",
+        "T"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-089",
+    "title": "Next tab",
+    "description": "Go to the next tab.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Ctrl",
+        "Tab"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-090",
+    "title": "Previous tab",
+    "description": "Go to the previous tab.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Ctrl",
+        "Shift",
+        "Tab"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-091",
+    "title": "Select tab 1–8",
+    "description": "Select one of the first eight tabs.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "1–8"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-092",
+    "title": "Select last tab",
+    "description": "Select the last tab.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "9"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-093",
+    "title": "Show tab overview",
+    "description": "Show tab overview.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "Shift",
+        "\\"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-094",
+    "title": "Focus Smart Search",
+    "description": "Select the Smart Search field.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "L"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-095",
+    "title": "Find on page",
+    "description": "Search the current webpage.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "F"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-096",
+    "title": "Go back",
+    "description": "Go to the previous webpage.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "["
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-097",
+    "title": "Go forward",
+    "description": "Go to the next webpage.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "]"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-098",
+    "title": "Print page",
+    "description": "Print the current webpage.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "P"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-099",
+    "title": "Copy selection",
+    "description": "Copy the selected item.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "C"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-100",
+    "title": "Paste",
+    "description": "Paste the most recently copied item.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "V"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-101",
+    "title": "Zoom in",
+    "description": "Increase website content size.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Accessibility",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "+"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-102",
+    "title": "Zoom out",
+    "description": "Decrease website content size.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Accessibility",
+    "keys": {
+      "mac": [
+        "Cmd",
+        "-"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  },
+  {
+    "id": "browsers-103",
+    "title": "Scroll down a screen",
+    "description": "Scroll down by one screen.",
+    "category": "browsers",
+    "app": "Safari",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "mac": [
+        "PageDown"
+      ]
+    },
+    "source": "https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac"
+  }
+]

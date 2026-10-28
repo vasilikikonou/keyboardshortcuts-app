@@ -1,0 +1,1688 @@
+[
+  {
+    "id": "microsoft365-word-001",
+    "title": "New document",
+    "description": "Create a blank document. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Files",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+N"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-002",
+    "title": "Open document",
+    "description": "Open an existing document. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Files",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+O"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-003",
+    "title": "Save document",
+    "description": "Save current changes. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Files",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+S"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-004",
+    "title": "Close document",
+    "description": "Close the current document. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Files",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+W"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-005",
+    "title": "Find in document",
+    "description": "Open document navigation and search text. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Search",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+F"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-006",
+    "title": "Go To",
+    "description": "Jump to a page, bookmark, or document location. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+G"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-007",
+    "title": "Replace text",
+    "description": "Find and replace text or formatting. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Intermediate",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+H"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-008",
+    "title": "Select all",
+    "description": "Select all document content. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+A"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-009",
+    "title": "Copy",
+    "description": "Copy selected content. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+C"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-010",
+    "title": "Cut",
+    "description": "Cut selected content. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+X"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-011",
+    "title": "Paste",
+    "description": "Paste clipboard content. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+V"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-012",
+    "title": "Undo",
+    "description": "Undo the previous edit. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Z"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-013",
+    "title": "Redo",
+    "description": "Redo the previous action when available. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Y"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-014",
+    "title": "Bold",
+    "description": "Toggle bold on selected text. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Formatting",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+B"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-015",
+    "title": "Italic",
+    "description": "Toggle italic on selected text. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Formatting",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+I"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-016",
+    "title": "Underline",
+    "description": "Toggle underline on selected text. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Formatting",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+U"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-017",
+    "title": "Center paragraph",
+    "description": "Center-align the current paragraph. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Formatting",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+E"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-018",
+    "title": "Print",
+    "description": "Open print options. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Files",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+P"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-019",
+    "title": "Move one word right",
+    "description": "Move insertion point one word to the right. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Beginner",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Right arrow key"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-word-020",
+    "title": "Beginning of document",
+    "description": "Move insertion point to the document start. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Word",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Home"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/word/keyboard-shortcuts-in-word"
+  },
+  {
+    "id": "microsoft365-excel-021",
+    "title": "New workbook",
+    "description": "Create a new workbook. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Beginner",
+    "task": "Files",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+N"
+      ],
+      "mac": [
+        "Cmd+N"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-022",
+    "title": "Open workbook",
+    "description": "Open a workbook. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Beginner",
+    "task": "Files",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+O"
+      ],
+      "mac": [
+        "Cmd+O"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-023",
+    "title": "Save workbook",
+    "description": "Save changes. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Beginner",
+    "task": "Files",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+S"
+      ],
+      "mac": [
+        "Cmd+S"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-024",
+    "title": "Close workbook",
+    "description": "Close the current workbook. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Beginner",
+    "task": "Files",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+W"
+      ],
+      "mac": [
+        "Cmd+W"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-025",
+    "title": "Copy cells",
+    "description": "Copy selected cells. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Beginner",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+C"
+      ],
+      "mac": [
+        "Cmd+C"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-026",
+    "title": "Paste cells",
+    "description": "Paste clipboard content. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Beginner",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+V"
+      ],
+      "mac": [
+        "Cmd+V"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-027",
+    "title": "Undo",
+    "description": "Undo recent action. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Beginner",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Z"
+      ],
+      "mac": [
+        "Cmd+Z"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-028",
+    "title": "Bold cells",
+    "description": "Toggle bold formatting. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Beginner",
+    "task": "Formatting",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+B"
+      ],
+      "mac": [
+        "Cmd+B"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-029",
+    "title": "Find",
+    "description": "Search worksheet or workbook. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Beginner",
+    "task": "Search",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+F"
+      ],
+      "mac": [
+        "Cmd+F"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-030",
+    "title": "Format Cells",
+    "description": "Open cell formatting dialog. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Intermediate",
+    "task": "Formatting",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+1"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-031",
+    "title": "Edit active cell",
+    "description": "Edit the active cell or formula bar. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Intermediate",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "F2"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-032",
+    "title": "Jump to data edge",
+    "description": "Move to the edge of the current data region in an indicated direction. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Arrow key"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-033",
+    "title": "First cell",
+    "description": "Move to the beginning of the worksheet. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Beginner",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Home"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-034",
+    "title": "Last used cell",
+    "description": "Move to the last used cell in the worksheet. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+End"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-035",
+    "title": "Next worksheet",
+    "description": "Move to the next sheet in the workbook. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Beginner",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Page down"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-036",
+    "title": "Previous worksheet",
+    "description": "Move to the previous sheet. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Beginner",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Page up"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-037",
+    "title": "Insert current date",
+    "description": "Enter today’s date in the active cell. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Intermediate",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Semicolon (;)"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-038",
+    "title": "Insert SUM",
+    "description": "Insert a SUM formula for adjacent cells. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Intermediate",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Alt+Equal sign (=)"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-039",
+    "title": "Create table",
+    "description": "Open the Create Table dialog for selected data. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Intermediate",
+    "task": "Formatting",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+T"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-040",
+    "title": "Flash Fill",
+    "description": "Fill values by detecting a pattern in adjacent data. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Advanced",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+E"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-041",
+    "title": "Toggle formulas",
+    "description": "Show or hide formulas instead of cell results. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Grave accent (`)"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-excel-042",
+    "title": "Fill down",
+    "description": "Copy top cell contents and formatting into selected cells below. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Excel",
+    "level": "Intermediate",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+D"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/excel/keyboard-shortcuts-in-excel"
+  },
+  {
+    "id": "microsoft365-powerpoint-043",
+    "title": "New presentation",
+    "description": "Create a presentation. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Beginner",
+    "task": "Files",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+N"
+      ],
+      "mac": [
+        "Cmd+N"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-044",
+    "title": "New slide",
+    "description": "Insert a new slide. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Beginner",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+M"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-045",
+    "title": "Save presentation",
+    "description": "Save changes. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Beginner",
+    "task": "Files",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+S"
+      ],
+      "mac": [
+        "Cmd+S"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-046",
+    "title": "Open presentation",
+    "description": "Open a presentation. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Beginner",
+    "task": "Files",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+O"
+      ],
+      "mac": [
+        "Cmd+O"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-047",
+    "title": "Print presentation",
+    "description": "Open print options. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Beginner",
+    "task": "Files",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+P"
+      ],
+      "mac": [
+        "Cmd+P"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-048",
+    "title": "Duplicate slide",
+    "description": "Make a copy of the selected slide. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Intermediate",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Shift+D"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-049",
+    "title": "Copy selection",
+    "description": "Copy selected text, object, or slide. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Beginner",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+C"
+      ],
+      "mac": [
+        "Cmd+C"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-050",
+    "title": "Paste selection",
+    "description": "Paste clipboard content. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Beginner",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+V"
+      ],
+      "mac": [
+        "Cmd+V"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-051",
+    "title": "Undo",
+    "description": "Undo last action. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Beginner",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Z"
+      ],
+      "mac": [
+        "Cmd+Z"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-052",
+    "title": "Bold text",
+    "description": "Toggle bold for selected text. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Beginner",
+    "task": "Formatting",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+B"
+      ],
+      "mac": [
+        "Cmd+B"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-053",
+    "title": "Insert hyperlink",
+    "description": "Add a hyperlink to selected content. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Intermediate",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+K"
+      ],
+      "mac": [
+        "Cmd+K"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-054",
+    "title": "Add comment",
+    "description": "Insert a comment. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Intermediate",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Alt+M"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-055",
+    "title": "Find text",
+    "description": "Find text in the presentation. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Beginner",
+    "task": "Search",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+F"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-056",
+    "title": "Replace text",
+    "description": "Find and replace presentation text. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Intermediate",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+H"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-057",
+    "title": "Next slide",
+    "description": "Move to the next slide in editing view. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Beginner",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Page down"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-058",
+    "title": "Previous slide",
+    "description": "Move to the previous slide in editing view. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Beginner",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Page up"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-059",
+    "title": "Start slideshow",
+    "description": "Start presentation from the beginning. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Beginner",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "F5"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-060",
+    "title": "Start from current slide",
+    "description": "Start slideshow at selected slide. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Shift+F5"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-061",
+    "title": "End slideshow",
+    "description": "Exit slide show. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Beginner",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Esc"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-powerpoint-062",
+    "title": "Group objects",
+    "description": "Group selected objects on a slide. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "PowerPoint",
+    "level": "Intermediate",
+    "task": "Editing",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+G"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/powerpoint/use-keyboard-shortcuts-to-create-powerpoint-presentations"
+  },
+  {
+    "id": "microsoft365-outlook-063",
+    "title": "New message",
+    "description": "Compose a new message in New Outlook for Windows. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+N"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/keyboard-shortcuts-for-outlook"
+  },
+  {
+    "id": "microsoft365-outlook-064",
+    "title": "Send message",
+    "description": "Send the open message. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Enter"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/keyboard-shortcuts-for-outlook"
+  },
+  {
+    "id": "microsoft365-outlook-065",
+    "title": "Reply",
+    "description": "Reply to the selected message. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+R"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/keyboard-shortcuts-for-outlook"
+  },
+  {
+    "id": "microsoft365-outlook-066",
+    "title": "Reply all",
+    "description": "Reply to sender and recipients. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Shift+R"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/keyboard-shortcuts-for-outlook"
+  },
+  {
+    "id": "microsoft365-outlook-067",
+    "title": "Forward",
+    "description": "Forward the selected message. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+F"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/keyboard-shortcuts-for-outlook"
+  },
+  {
+    "id": "microsoft365-outlook-068",
+    "title": "Go to Calendar",
+    "description": "Switch to Calendar. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+2"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/keyboard-shortcuts-for-outlook"
+  },
+  {
+    "id": "microsoft365-outlook-069",
+    "title": "Search Outlook",
+    "description": "Search for a message or contact. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Search",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+E"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/keyboard-shortcuts-for-outlook"
+  },
+  {
+    "id": "microsoft365-outlook-070",
+    "title": "Mark read",
+    "description": "Mark selected message as read. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Q"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/keyboard-shortcuts-for-outlook"
+  },
+  {
+    "id": "microsoft365-outlook-071",
+    "title": "Mark unread",
+    "description": "Mark selected message as unread. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+U"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/keyboard-shortcuts-for-outlook"
+  },
+  {
+    "id": "microsoft365-outlook-072",
+    "title": "Delete message",
+    "description": "Delete selected message. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Delete"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/keyboard-shortcuts-for-outlook"
+  },
+  {
+    "id": "microsoft365-outlook-073",
+    "title": "Create Mac message",
+    "description": "Compose a new email in Outlook for Mac. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "mac": [
+        "Cmd+N"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/mac/keyboard-shortcuts-in-outlook-for-mac"
+  },
+  {
+    "id": "microsoft365-outlook-074",
+    "title": "Send Mac message",
+    "description": "Send open message in Outlook for Mac. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "mac": [
+        "Cmd+Return"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/mac/keyboard-shortcuts-in-outlook-for-mac"
+  },
+  {
+    "id": "microsoft365-outlook-075",
+    "title": "Reply Mac",
+    "description": "Reply to message in Outlook for Mac. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "mac": [
+        "Cmd+R"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/mac/keyboard-shortcuts-in-outlook-for-mac"
+  },
+  {
+    "id": "microsoft365-outlook-076",
+    "title": "Forward Mac",
+    "description": "Forward message in Outlook for Mac. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "mac": [
+        "Cmd+J"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/mac/keyboard-shortcuts-in-outlook-for-mac"
+  },
+  {
+    "id": "microsoft365-outlook-077",
+    "title": "Search current folder Mac",
+    "description": "Search the current folder in Outlook for Mac. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Intermediate",
+    "task": "Search",
+    "mode": "Desktop",
+    "keys": {
+      "mac": [
+        "Option+Cmd+F"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/mac/keyboard-shortcuts-in-outlook-for-mac"
+  },
+  {
+    "id": "microsoft365-outlook-078",
+    "title": "Find in item Mac",
+    "description": "Find text in the open item. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Search",
+    "mode": "Desktop",
+    "keys": {
+      "mac": [
+        "Cmd+F"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/mac/keyboard-shortcuts-in-outlook-for-mac"
+  },
+  {
+    "id": "microsoft365-outlook-079",
+    "title": "Attach file Mac",
+    "description": "Add an attachment to the open message. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Intermediate",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "mac": [
+        "Cmd+E"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/mac/keyboard-shortcuts-in-outlook-for-mac"
+  },
+  {
+    "id": "microsoft365-outlook-080",
+    "title": "Calendar view Mac",
+    "description": "Switch to Calendar view. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Outlook",
+    "level": "Beginner",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "mac": [
+        "Cmd+2"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/outlook/mac/keyboard-shortcuts-in-outlook-for-mac"
+  },
+  {
+    "id": "microsoft365-teams-081",
+    "title": "Show shortcuts",
+    "description": "Open Teams keyboard shortcut list. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Beginner",
+    "task": "Accessibility",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Period (.)"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-082",
+    "title": "Search Teams",
+    "description": "Go to Search in desktop Teams. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Beginner",
+    "task": "Search",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+E"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-083",
+    "title": "Open filter",
+    "description": "Open the Teams filter. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Intermediate",
+    "task": "Search",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Shift+F"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-084",
+    "title": "New chat",
+    "description": "Start a new chat. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+N"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-085",
+    "title": "New chat window",
+    "description": "Start a chat in a new window. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Shift+N"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-086",
+    "title": "Settings",
+    "description": "Open Teams settings. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Beginner",
+    "task": "System",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Comma (,)"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-087",
+    "title": "Go to chat or channel",
+    "description": "Jump to a specific chat or channel. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+G"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-088",
+    "title": "Focus chat list",
+    "description": "Move focus to chat or channel list. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+L"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-089",
+    "title": "Focus message pane",
+    "description": "Move focus to message pane. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+M"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-090",
+    "title": "Go to compose box",
+    "description": "Move focus to compose box. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+R"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-091",
+    "title": "Find in conversation",
+    "description": "Find in current chat or channel. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Beginner",
+    "task": "Search",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+F"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-092",
+    "title": "Mark all read",
+    "description": "Mark all conversations as read. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Shift+Escape"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-093",
+    "title": "Expand compose",
+    "description": "Expand the compose box. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Intermediate",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Shift+X"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-094",
+    "title": "Send message",
+    "description": "Send from expanded compose box. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Enter"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-095",
+    "title": "Bold message",
+    "description": "Apply bold to selected compose text. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Beginner",
+    "task": "Formatting",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+B"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-096",
+    "title": "Italic message",
+    "description": "Apply italic to selected compose text. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Beginner",
+    "task": "Formatting",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+I"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-097",
+    "title": "Attach file",
+    "description": "Attach a file in a message. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Intermediate",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Alt+Shift+O"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-098",
+    "title": "Toggle mute",
+    "description": "Mute or unmute during a meeting or call. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Shift+M"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-099",
+    "title": "Raise hand",
+    "description": "Raise or lower your hand in a meeting. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Shift+K"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-100",
+    "title": "Toggle video",
+    "description": "Turn meeting video on or off. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Shift+O"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-101",
+    "title": "End call",
+    "description": "End an audio or video call. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Beginner",
+    "task": "Communication",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+Shift+H"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  },
+  {
+    "id": "microsoft365-teams-102",
+    "title": "Open chat in new window",
+    "description": "Open an existing conversation in a new desktop window. US keyboard layout; desktop app.",
+    "category": "microsoft365",
+    "app": "Teams",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "mode": "Desktop",
+    "keys": {
+      "windows": [
+        "Ctrl+O"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams"
+  }
+]

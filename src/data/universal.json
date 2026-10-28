@@ -1,0 +1,782 @@
+[
+  {
+    "id": "universal-001",
+    "title": "Copy",
+    "description": "Copy selected text or an item to the clipboard.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl+C"
+      ],
+      "mac": [
+        "Cmd+C"
+      ],
+      "linux": [
+        "Ctrl+C"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-002",
+    "title": "Cut",
+    "description": "Remove the selection and place it on the clipboard.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl+X"
+      ],
+      "mac": [
+        "Cmd+X"
+      ],
+      "linux": [
+        "Ctrl+X"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-003",
+    "title": "Paste",
+    "description": "Insert clipboard contents at the cursor or current location.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl+V"
+      ],
+      "mac": [
+        "Cmd+V"
+      ],
+      "linux": [
+        "Ctrl+V"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-004",
+    "title": "Select all",
+    "description": "Select all text or items in the current context.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl+A"
+      ],
+      "mac": [
+        "Cmd+A"
+      ],
+      "linux": [
+        "Ctrl+A"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-005",
+    "title": "Undo",
+    "description": "Reverse the most recent supported action.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl+Z"
+      ],
+      "mac": [
+        "Cmd+Z"
+      ],
+      "linux": [
+        "Ctrl+Z"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-006",
+    "title": "Redo",
+    "description": "Restore an action that was undone.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl+Y"
+      ],
+      "mac": [
+        "Shift+Cmd+Z"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-007",
+    "title": "Find",
+    "description": "Search within the current document or view.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "Ctrl+F"
+      ],
+      "mac": [
+        "Cmd+F"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-008",
+    "title": "Save",
+    "description": "Save current document; app support and unsaved-document prompts vary.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl+S"
+      ],
+      "mac": [
+        "Cmd+S"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-009",
+    "title": "Open",
+    "description": "Open a file or show the open-file dialog.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl+O"
+      ],
+      "mac": [
+        "Cmd+O"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-010",
+    "title": "Print",
+    "description": "Open print dialog for the current document.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl+P"
+      ],
+      "mac": [
+        "Cmd+P"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-011",
+    "title": "Bold",
+    "description": "Toggle bold formatting for selected text or future typing.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Formatting",
+    "keys": {
+      "windows": [
+        "Ctrl+B"
+      ],
+      "mac": [
+        "Cmd+B"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-012",
+    "title": "Italic",
+    "description": "Toggle italic formatting for selected text or future typing.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Formatting",
+    "keys": {
+      "windows": [
+        "Ctrl+I"
+      ],
+      "mac": [
+        "Cmd+I"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-013",
+    "title": "Underline",
+    "description": "Toggle underline formatting for selected text or future typing.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Formatting",
+    "keys": {
+      "windows": [
+        "Ctrl+U"
+      ],
+      "mac": [
+        "Cmd+U"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-014",
+    "title": "Delete previous word",
+    "description": "Delete the word immediately before the insertion point.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl+Backspace"
+      ],
+      "mac": [
+        "Option+Delete"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-015",
+    "title": "Delete next word",
+    "description": "Delete the word immediately after the insertion point.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl+Delete"
+      ],
+      "mac": [
+        "Option+Fn+Delete"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-016",
+    "title": "Beginning of line",
+    "description": "Move insertion point to the start of the current line.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Home"
+      ],
+      "mac": [
+        "Cmd+Left"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-017",
+    "title": "End of line",
+    "description": "Move insertion point to the end of the current line.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "End"
+      ],
+      "mac": [
+        "Cmd+Right"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-018",
+    "title": "Beginning of document",
+    "description": "Move insertion point to the beginning of the document.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl+Home"
+      ],
+      "mac": [
+        "Cmd+Up"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-019",
+    "title": "End of document",
+    "description": "Move insertion point to the end of the document.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl+End"
+      ],
+      "mac": [
+        "Cmd+Down"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-020",
+    "title": "Previous word",
+    "description": "Move insertion point to the previous word boundary.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl+Left"
+      ],
+      "mac": [
+        "Option+Left"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-021",
+    "title": "Next word",
+    "description": "Move insertion point to the next word boundary.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl+Right"
+      ],
+      "mac": [
+        "Option+Right"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-022",
+    "title": "Select to line start",
+    "description": "Extend selection to the start of the line.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Shift+Home"
+      ],
+      "mac": [
+        "Shift+Cmd+Left"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-023",
+    "title": "Select to line end",
+    "description": "Extend selection to the end of the line.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Shift+End"
+      ],
+      "mac": [
+        "Shift+Cmd+Right"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-024",
+    "title": "Select previous word",
+    "description": "Extend selection to the previous word boundary.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl+Shift+Left"
+      ],
+      "mac": [
+        "Option+Shift+Left"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-025",
+    "title": "Select next word",
+    "description": "Extend selection to the next word boundary.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl+Shift+Right"
+      ],
+      "mac": [
+        "Option+Shift+Right"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-026",
+    "title": "New tab",
+    "description": "Open a new tab in a supporting app.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl+T"
+      ],
+      "mac": [
+        "Cmd+T"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-027",
+    "title": "Close tab or window",
+    "description": "Close current tab or front window; behavior depends on app.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl+W"
+      ],
+      "mac": [
+        "Cmd+W"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-028",
+    "title": "Switch apps",
+    "description": "Switch to another open app.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Alt+Tab"
+      ],
+      "mac": [
+        "Cmd+Tab"
+      ],
+      "linux": [
+        "Super+Tab"
+      ]
+    },
+    "source": "https://help.gnome.org/gnome-help/shell-keyboard-shortcuts.html"
+  },
+  {
+    "id": "universal-029",
+    "title": "Close app",
+    "description": "Close active window or quit/close app depending on platform.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Alt+F4"
+      ],
+      "mac": [
+        "Cmd+Q"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-030",
+    "title": "Switch app windows",
+    "description": "Cycle through windows of the current app.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "mac": [
+        "Cmd+`"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-031",
+    "title": "Move to next match",
+    "description": "Move to the next occurrence after a find operation.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "mac": [
+        "Cmd+G"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-032",
+    "title": "Go back",
+    "description": "Navigate to the previous location or page in supporting apps.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Alt+Left"
+      ],
+      "mac": [
+        "Cmd+["
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-033",
+    "title": "Go forward",
+    "description": "Navigate to the next location or page in supporting apps.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Alt+Right"
+      ],
+      "mac": [
+        "Cmd+]"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-034",
+    "title": "Refresh",
+    "description": "Reload or refresh the current view when supported.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl+R"
+      ],
+      "mac": [
+        "Cmd+R"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-035",
+    "title": "Rename item",
+    "description": "Rename selected file or folder in GNOME Files.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "linux": [
+        "F2"
+      ]
+    },
+    "source": "https://help.gnome.org/users/gnome-help/stable/files-rename.html.en"
+  },
+  {
+    "id": "universal-036",
+    "title": "New folder",
+    "description": "Create a new folder in Finder.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Shift+Cmd+N"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-037",
+    "title": "Move item to Trash",
+    "description": "Move selected Finder items to Trash.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Cmd+Delete"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-038",
+    "title": "Duplicate item",
+    "description": "Duplicate selected files in Finder.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "mac": [
+        "Cmd+D"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-039",
+    "title": "Open parent folder",
+    "description": "Navigate to the containing folder in Finder.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "mac": [
+        "Cmd+Up"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-040",
+    "title": "Search system",
+    "description": "Open Spotlight search on macOS.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "mac": [
+        "Cmd+Space"
+      ]
+    },
+    "source": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "id": "universal-041",
+    "title": "Open Activities search",
+    "description": "Open Activities overview; type to search apps, contacts and documents in GNOME.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "linux": [
+        "Super"
+      ]
+    },
+    "source": "https://help.gnome.org/gnome-help/shell-keyboard-shortcuts.html"
+  },
+  {
+    "id": "universal-042",
+    "title": "Lock screen",
+    "description": "Lock the current desktop session.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "System",
+    "keys": {
+      "windows": [
+        "Win+L"
+      ],
+      "mac": [
+        "Ctrl+Cmd+Q"
+      ],
+      "linux": [
+        "Super+L"
+      ]
+    },
+    "source": "https://help.gnome.org/gnome-help/shell-keyboard-shortcuts.html"
+  },
+  {
+    "id": "universal-043",
+    "title": "Task manager",
+    "description": "Open Windows Task Manager.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "System",
+    "keys": {
+      "windows": [
+        "Ctrl+Shift+Esc"
+      ]
+    },
+    "source": "https://support.microsoft.com/en-us/accessibility/windows/keyboard-shortcuts-in-windows"
+  },
+  {
+    "id": "universal-044",
+    "title": "Show open windows",
+    "description": "Switch between open windows in GNOME.",
+    "category": "universal",
+    "app": "Universal basics",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "linux": [
+        "Super+Tab"
+      ]
+    },
+    "source": "https://help.gnome.org/gnome-help/shell-keyboard-shortcuts.html"
+  }
+]

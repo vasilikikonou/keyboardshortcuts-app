@@ -1,0 +1,1633 @@
+[
+  {
+    "id": "vim-001",
+    "title": "Next word",
+    "description": "Move to start of next word.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "w"
+      ],
+      "mac": [
+        "w"
+      ],
+      "linux": [
+        "w"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-002",
+    "title": "Previous word",
+    "description": "Move to start of previous word.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "b"
+      ],
+      "mac": [
+        "b"
+      ],
+      "linux": [
+        "b"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-003",
+    "title": "Word end",
+    "description": "Move to end of word.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "e"
+      ],
+      "mac": [
+        "e"
+      ],
+      "linux": [
+        "e"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-004",
+    "title": "Next WORD",
+    "description": "Move to next whitespace-delimited WORD; case-sensitive, US keyboard.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "W"
+      ],
+      "mac": [
+        "W"
+      ],
+      "linux": [
+        "W"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-005",
+    "title": "Line start",
+    "description": "Move to first character; digit zero.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "0"
+      ],
+      "mac": [
+        "0"
+      ],
+      "linux": [
+        "0"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-006",
+    "title": "First nonblank",
+    "description": "Move to first nonblank; US layout uses Shift+6.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "^"
+      ],
+      "mac": [
+        "^"
+      ],
+      "linux": [
+        "^"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-007",
+    "title": "Line end",
+    "description": "Move to line end; US layout uses Shift+4.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "$"
+      ],
+      "mac": [
+        "$"
+      ],
+      "linux": [
+        "$"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-008",
+    "title": "File start",
+    "description": "Go to first line; press g twice in sequence.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "gg"
+      ],
+      "mac": [
+        "gg"
+      ],
+      "linux": [
+        "gg"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-009",
+    "title": "File end",
+    "description": "Go to last line; US layout uses Shift+g.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "G"
+      ],
+      "mac": [
+        "G"
+      ],
+      "linux": [
+        "G"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-010",
+    "title": "Screen top",
+    "description": "Move to top visible line; US layout uses Shift+h.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "H"
+      ],
+      "mac": [
+        "H"
+      ],
+      "linux": [
+        "H"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-011",
+    "title": "Screen middle",
+    "description": "Move to middle visible line; US layout uses Shift+m.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "M"
+      ],
+      "mac": [
+        "M"
+      ],
+      "linux": [
+        "M"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-012",
+    "title": "Screen bottom",
+    "description": "Move to bottom visible line; US layout uses Shift+l.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "L"
+      ],
+      "mac": [
+        "L"
+      ],
+      "linux": [
+        "L"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-013",
+    "title": "Match delimiter",
+    "description": "Jump between matching parentheses, brackets, or braces; US layout uses Shift+5.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "%"
+      ],
+      "mac": [
+        "%"
+      ],
+      "linux": [
+        "%"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-014",
+    "title": "Delete character",
+    "description": "Delete character under cursor.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "x"
+      ],
+      "mac": [
+        "x"
+      ],
+      "linux": [
+        "x"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/change.html"
+  },
+  {
+    "id": "vim-015",
+    "title": "Delete line",
+    "description": "Delete current line.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "dd"
+      ],
+      "mac": [
+        "dd"
+      ],
+      "linux": [
+        "dd"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/change.html"
+  },
+  {
+    "id": "vim-016",
+    "title": "Delete to line end",
+    "description": "Delete from cursor to end of line.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "D"
+      ],
+      "mac": [
+        "D"
+      ],
+      "linux": [
+        "D"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/change.html"
+  },
+  {
+    "id": "vim-017",
+    "title": "Delete word",
+    "description": "Delete using word motion from cursor.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "dw"
+      ],
+      "mac": [
+        "dw"
+      ],
+      "linux": [
+        "dw"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/change.html"
+  },
+  {
+    "id": "vim-018",
+    "title": "Change line",
+    "description": "Replace current line and enter Insert mode.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "cc"
+      ],
+      "mac": [
+        "cc"
+      ],
+      "linux": [
+        "cc"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/change.html"
+  },
+  {
+    "id": "vim-019",
+    "title": "Change to line end",
+    "description": "Delete to line end and enter Insert mode.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "C"
+      ],
+      "mac": [
+        "C"
+      ],
+      "linux": [
+        "C"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/change.html"
+  },
+  {
+    "id": "vim-020",
+    "title": "Change word",
+    "description": "Change word from cursor and enter Insert mode.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "cw"
+      ],
+      "mac": [
+        "cw"
+      ],
+      "linux": [
+        "cw"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/change.html"
+  },
+  {
+    "id": "vim-021",
+    "title": "Yank line",
+    "description": "Copy current line into unnamed register.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "yy"
+      ],
+      "mac": [
+        "yy"
+      ],
+      "linux": [
+        "yy"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/change.html"
+  },
+  {
+    "id": "vim-022",
+    "title": "Put after",
+    "description": "Put register after cursor or below line.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "p"
+      ],
+      "mac": [
+        "p"
+      ],
+      "linux": [
+        "p"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/change.html"
+  },
+  {
+    "id": "vim-023",
+    "title": "Put before",
+    "description": "Put register before cursor or above line.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "P"
+      ],
+      "mac": [
+        "P"
+      ],
+      "linux": [
+        "P"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/change.html"
+  },
+  {
+    "id": "vim-024",
+    "title": "Undo",
+    "description": "Undo latest change.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "u"
+      ],
+      "mac": [
+        "u"
+      ],
+      "linux": [
+        "u"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/change.html"
+  },
+  {
+    "id": "vim-025",
+    "title": "Replace character",
+    "description": "Type r then a character to replace under cursor.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "r{char}"
+      ],
+      "mac": [
+        "r{char}"
+      ],
+      "linux": [
+        "r{char}"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/change.html"
+  },
+  {
+    "id": "vim-026",
+    "title": "Insert before",
+    "description": "Enter Insert mode before cursor.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "i"
+      ],
+      "mac": [
+        "i"
+      ],
+      "linux": [
+        "i"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/insert.html"
+  },
+  {
+    "id": "vim-027",
+    "title": "Append after",
+    "description": "Enter Insert mode after cursor.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "a"
+      ],
+      "mac": [
+        "a"
+      ],
+      "linux": [
+        "a"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/insert.html"
+  },
+  {
+    "id": "vim-028",
+    "title": "Insert at line start",
+    "description": "Enter Insert mode before first nonblank; US keyboard Shift+i.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "I"
+      ],
+      "mac": [
+        "I"
+      ],
+      "linux": [
+        "I"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/insert.html"
+  },
+  {
+    "id": "vim-029",
+    "title": "Append at line end",
+    "description": "Enter Insert mode at line end; US keyboard Shift+a.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "A"
+      ],
+      "mac": [
+        "A"
+      ],
+      "linux": [
+        "A"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/insert.html"
+  },
+  {
+    "id": "vim-030",
+    "title": "Open line below",
+    "description": "Create line below and enter Insert mode.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "o"
+      ],
+      "mac": [
+        "o"
+      ],
+      "linux": [
+        "o"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/insert.html"
+  },
+  {
+    "id": "vim-031",
+    "title": "Characterwise visual",
+    "description": "Start or stop characterwise selection.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "v"
+      ],
+      "mac": [
+        "v"
+      ],
+      "linux": [
+        "v"
+      ]
+    },
+    "mode": "Visual",
+    "sequence": false,
+    "source": "https://vimhelp.org/visual.html"
+  },
+  {
+    "id": "vim-032",
+    "title": "Linewise visual",
+    "description": "Start or stop linewise selection; US keyboard Shift+v.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "V"
+      ],
+      "mac": [
+        "V"
+      ],
+      "linux": [
+        "V"
+      ]
+    },
+    "mode": "Visual",
+    "sequence": false,
+    "source": "https://vimhelp.org/visual.html"
+  },
+  {
+    "id": "vim-033",
+    "title": "Blockwise visual",
+    "description": "Start or stop blockwise selection.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl+v"
+      ],
+      "mac": [
+        "Ctrl+v"
+      ],
+      "linux": [
+        "Ctrl+v"
+      ]
+    },
+    "mode": "Visual",
+    "sequence": false,
+    "source": "https://vimhelp.org/visual.html"
+  },
+  {
+    "id": "vim-034",
+    "title": "Delete selection",
+    "description": "Delete selected text.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "d"
+      ],
+      "mac": [
+        "d"
+      ],
+      "linux": [
+        "d"
+      ]
+    },
+    "mode": "Visual",
+    "sequence": false,
+    "source": "https://vimhelp.org/visual.html"
+  },
+  {
+    "id": "vim-035",
+    "title": "Yank selection",
+    "description": "Copy selected text.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "y"
+      ],
+      "mac": [
+        "y"
+      ],
+      "linux": [
+        "y"
+      ]
+    },
+    "mode": "Visual",
+    "sequence": false,
+    "source": "https://vimhelp.org/visual.html"
+  },
+  {
+    "id": "vim-036",
+    "title": "Indent selection",
+    "description": "Shift selected lines right; US keyboard Shift+period.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        ">"
+      ],
+      "mac": [
+        ">"
+      ],
+      "linux": [
+        ">"
+      ]
+    },
+    "mode": "Visual",
+    "sequence": false,
+    "source": "https://vimhelp.org/visual.html"
+  },
+  {
+    "id": "vim-037",
+    "title": "Unindent selection",
+    "description": "Shift selected lines left; US keyboard Shift+comma.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "<"
+      ],
+      "mac": [
+        "<"
+      ],
+      "linux": [
+        "<"
+      ]
+    },
+    "mode": "Visual",
+    "sequence": false,
+    "source": "https://vimhelp.org/visual.html"
+  },
+  {
+    "id": "vim-038",
+    "title": "Search forward",
+    "description": "Type slash, pattern, Enter to search forward.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "/{pattern}"
+      ],
+      "mac": [
+        "/{pattern}"
+      ],
+      "linux": [
+        "/{pattern}"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-039",
+    "title": "Search backward",
+    "description": "Type question mark, pattern, Enter to search backward.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "?{pattern}"
+      ],
+      "mac": [
+        "?{pattern}"
+      ],
+      "linux": [
+        "?{pattern}"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-040",
+    "title": "Next match",
+    "description": "Repeat search in same direction.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "n"
+      ],
+      "mac": [
+        "n"
+      ],
+      "linux": [
+        "n"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-041",
+    "title": "Opposite search",
+    "description": "Repeat search in opposite direction; US keyboard Shift+n.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "N"
+      ],
+      "mac": [
+        "N"
+      ],
+      "linux": [
+        "N"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-042",
+    "title": "Search word forward",
+    "description": "Search whole word under cursor forward; US keyboard Shift+8.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "*"
+      ],
+      "mac": [
+        "*"
+      ],
+      "linux": [
+        "*"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-043",
+    "title": "Search word backward",
+    "description": "Search whole word under cursor backward; US keyboard Shift+3.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "#"
+      ],
+      "mac": [
+        "#"
+      ],
+      "linux": [
+        "#"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-044",
+    "title": "Find character forward",
+    "description": "Type f then character; search current line.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "f{char}"
+      ],
+      "mac": [
+        "f{char}"
+      ],
+      "linux": [
+        "f{char}"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-045",
+    "title": "Find character backward",
+    "description": "Type Shift+f then character; search current line.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "F{char}"
+      ],
+      "mac": [
+        "F{char}"
+      ],
+      "linux": [
+        "F{char}"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-046",
+    "title": "Repeat character find",
+    "description": "Repeat latest f/F/t/T in same direction.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        ";"
+      ],
+      "mac": [
+        ";"
+      ],
+      "linux": [
+        ";"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-047",
+    "title": "Reverse character find",
+    "description": "Repeat latest character find opposite direction.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        ","
+      ],
+      "mac": [
+        ","
+      ],
+      "linux": [
+        ","
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-048",
+    "title": "Write file",
+    "description": "Type :w then Enter to save current file.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        ":w",
+        "Enter"
+      ],
+      "mac": [
+        ":w",
+        "Enter"
+      ],
+      "linux": [
+        ":w",
+        "Enter"
+      ]
+    },
+    "mode": "Command-line",
+    "sequence": true,
+    "source": "https://vimhelp.org/cmdline.html"
+  },
+  {
+    "id": "vim-049",
+    "title": "Quit",
+    "description": "Type :q then Enter; only works without unsaved changes.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        ":q",
+        "Enter"
+      ],
+      "mac": [
+        ":q",
+        "Enter"
+      ],
+      "linux": [
+        ":q",
+        "Enter"
+      ]
+    },
+    "mode": "Command-line",
+    "sequence": true,
+    "source": "https://vimhelp.org/cmdline.html"
+  },
+  {
+    "id": "vim-050",
+    "title": "Write and quit",
+    "description": "Type :wq then Enter to save and quit.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        ":wq",
+        "Enter"
+      ],
+      "mac": [
+        ":wq",
+        "Enter"
+      ],
+      "linux": [
+        ":wq",
+        "Enter"
+      ]
+    },
+    "mode": "Command-line",
+    "sequence": true,
+    "source": "https://vimhelp.org/cmdline.html"
+  },
+  {
+    "id": "vim-051",
+    "title": "Discard and quit",
+    "description": "Type :q! then Enter to quit without saving.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        ":q!",
+        "Enter"
+      ],
+      "mac": [
+        ":q!",
+        "Enter"
+      ],
+      "linux": [
+        ":q!",
+        "Enter"
+      ]
+    },
+    "mode": "Command-line",
+    "sequence": true,
+    "source": "https://vimhelp.org/cmdline.html"
+  },
+  {
+    "id": "vim-052",
+    "title": "Edit file",
+    "description": "Type :e, filename, Enter to open file.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        ":e {file}",
+        "Enter"
+      ],
+      "mac": [
+        ":e {file}",
+        "Enter"
+      ],
+      "linux": [
+        ":e {file}",
+        "Enter"
+      ]
+    },
+    "mode": "Command-line",
+    "sequence": true,
+    "source": "https://vimhelp.org/cmdline.html"
+  },
+  {
+    "id": "vim-053",
+    "title": "Next buffer",
+    "description": "Type :bnext then Enter to switch buffer.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        ":bnext",
+        "Enter"
+      ],
+      "mac": [
+        ":bnext",
+        "Enter"
+      ],
+      "linux": [
+        ":bnext",
+        "Enter"
+      ]
+    },
+    "mode": "Command-line",
+    "sequence": true,
+    "source": "https://vimhelp.org/cmdline.html"
+  },
+  {
+    "id": "vim-054",
+    "title": "Previous buffer",
+    "description": "Type :bprevious then Enter to switch buffer.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        ":bprevious",
+        "Enter"
+      ],
+      "mac": [
+        ":bprevious",
+        "Enter"
+      ],
+      "linux": [
+        ":bprevious",
+        "Enter"
+      ]
+    },
+    "mode": "Command-line",
+    "sequence": true,
+    "source": "https://vimhelp.org/cmdline.html"
+  },
+  {
+    "id": "vim-055",
+    "title": "Split horizontally",
+    "description": "Press Ctrl+w, release, then s.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl+w s"
+      ],
+      "mac": [
+        "Ctrl+w s"
+      ],
+      "linux": [
+        "Ctrl+w s"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/windows.html"
+  },
+  {
+    "id": "vim-056",
+    "title": "Split vertically",
+    "description": "Press Ctrl+w, release, then v.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl+w v"
+      ],
+      "mac": [
+        "Ctrl+w v"
+      ],
+      "linux": [
+        "Ctrl+w v"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/windows.html"
+  },
+  {
+    "id": "vim-057",
+    "title": "Cycle windows",
+    "description": "Press Ctrl+w, release, then w.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl+w w"
+      ],
+      "mac": [
+        "Ctrl+w w"
+      ],
+      "linux": [
+        "Ctrl+w w"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/windows.html"
+  },
+  {
+    "id": "vim-058",
+    "title": "Focus left window",
+    "description": "Press Ctrl+w, release, then h.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl+w h"
+      ],
+      "mac": [
+        "Ctrl+w h"
+      ],
+      "linux": [
+        "Ctrl+w h"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/windows.html"
+  },
+  {
+    "id": "vim-059",
+    "title": "Focus lower window",
+    "description": "Press Ctrl+w, release, then j.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl+w j"
+      ],
+      "mac": [
+        "Ctrl+w j"
+      ],
+      "linux": [
+        "Ctrl+w j"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/windows.html"
+  },
+  {
+    "id": "vim-060",
+    "title": "Focus upper window",
+    "description": "Press Ctrl+w, release, then k.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl+w k"
+      ],
+      "mac": [
+        "Ctrl+w k"
+      ],
+      "linux": [
+        "Ctrl+w k"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/windows.html"
+  },
+  {
+    "id": "vim-061",
+    "title": "Focus right window",
+    "description": "Press Ctrl+w, release, then l.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl+w l"
+      ],
+      "mac": [
+        "Ctrl+w l"
+      ],
+      "linux": [
+        "Ctrl+w l"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/windows.html"
+  },
+  {
+    "id": "vim-062",
+    "title": "Close window",
+    "description": "Press Ctrl+w, release, then q.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl+w q"
+      ],
+      "mac": [
+        "Ctrl+w q"
+      ],
+      "linux": [
+        "Ctrl+w q"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/windows.html"
+  },
+  {
+    "id": "vim-063",
+    "title": "Equalize windows",
+    "description": "Press Ctrl+w, release, then =.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl+w ="
+      ],
+      "mac": [
+        "Ctrl+w ="
+      ],
+      "linux": [
+        "Ctrl+w ="
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/windows.html"
+  },
+  {
+    "id": "vim-064",
+    "title": "Page forward",
+    "description": "Scroll forward one screen.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl+f"
+      ],
+      "mac": [
+        "Ctrl+f"
+      ],
+      "linux": [
+        "Ctrl+f"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-065",
+    "title": "Page backward",
+    "description": "Scroll backward one screen.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl+b"
+      ],
+      "mac": [
+        "Ctrl+b"
+      ],
+      "linux": [
+        "Ctrl+b"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-066",
+    "title": "Half page down",
+    "description": "Scroll down half screen.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl+d"
+      ],
+      "mac": [
+        "Ctrl+d"
+      ],
+      "linux": [
+        "Ctrl+d"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-067",
+    "title": "Half page up",
+    "description": "Scroll up half screen.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl+u"
+      ],
+      "mac": [
+        "Ctrl+u"
+      ],
+      "linux": [
+        "Ctrl+u"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": false,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-068",
+    "title": "Center cursor line",
+    "description": "Center cursor line; press z twice.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "zz"
+      ],
+      "mac": [
+        "zz"
+      ],
+      "linux": [
+        "zz"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-069",
+    "title": "Set mark a",
+    "description": "Set mark a at cursor; type m then a.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "ma"
+      ],
+      "mac": [
+        "ma"
+      ],
+      "linux": [
+        "ma"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/usr_03.html"
+  },
+  {
+    "id": "vim-070",
+    "title": "Jump to mark line",
+    "description": "Jump to line with mark a; type apostrophe then a.",
+    "category": "vim",
+    "app": "Vim",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "'a"
+      ],
+      "mac": [
+        "'a"
+      ],
+      "linux": [
+        "'a"
+      ]
+    },
+    "mode": "Normal",
+    "sequence": true,
+    "source": "https://vimhelp.org/usr_03.html"
+  }
+]

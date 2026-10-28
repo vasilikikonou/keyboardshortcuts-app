@@ -1,0 +1,1880 @@
+[
+  {
+    "id": "vscode-command-palette",
+    "title": "Show Command Palette",
+    "description": "Search and run commands in any workbench context.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Development",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "P"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "P"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "P"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-quick-open",
+    "title": "Quick Open File",
+    "description": "Find and open a workspace file by name.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "P"
+      ],
+      "mac": [
+        "Cmd",
+        "P"
+      ],
+      "linux": [
+        "Ctrl",
+        "P"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-new-window",
+    "title": "New Window",
+    "description": "Open a separate VS Code window.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "N"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "N"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "N"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-close-window",
+    "title": "Close Window",
+    "description": "Close the current window or instance.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "W"
+      ],
+      "mac": [
+        "Cmd",
+        "W"
+      ],
+      "linux": [
+        "Ctrl",
+        "W"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-keybindings",
+    "title": "Open Keyboard Shortcuts",
+    "description": "Inspect or customize keybindings.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "System",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "K",
+        "Ctrl",
+        "S"
+      ],
+      "mac": [
+        "Cmd",
+        "K",
+        "Cmd",
+        "S"
+      ],
+      "linux": [
+        "Ctrl",
+        "K",
+        "Ctrl",
+        "S"
+      ]
+    },
+    "sequence": true,
+    "source": "https://code.visualstudio.com/docs/getstarted/keybindings"
+  },
+  {
+    "id": "vscode-cut-line",
+    "title": "Cut Line",
+    "description": "With no selection, cut the current line; otherwise cut selected text.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "X"
+      ],
+      "mac": [
+        "Cmd",
+        "X"
+      ],
+      "linux": [
+        "Ctrl",
+        "X"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-copy-line",
+    "title": "Copy Line",
+    "description": "With no selection, copy the current line.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "C"
+      ],
+      "mac": [
+        "Cmd",
+        "C"
+      ],
+      "linux": [
+        "Ctrl",
+        "C"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-move-up",
+    "title": "Move Line Up",
+    "description": "Move current or selected lines one line upward.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Alt",
+        "Up"
+      ],
+      "mac": [
+        "Option",
+        "Up"
+      ],
+      "linux": [
+        "Alt",
+        "Up"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-move-down",
+    "title": "Move Line Down",
+    "description": "Move current or selected lines one line downward.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Alt",
+        "Down"
+      ],
+      "mac": [
+        "Option",
+        "Down"
+      ],
+      "linux": [
+        "Alt",
+        "Down"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-copy-up",
+    "title": "Copy Line Up",
+    "description": "Duplicate current or selected lines above the original.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Shift",
+        "Alt",
+        "Up"
+      ],
+      "mac": [
+        "Shift",
+        "Option",
+        "Up"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-copy-down",
+    "title": "Copy Line Down",
+    "description": "Duplicate current or selected lines below the original.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Shift",
+        "Alt",
+        "Down"
+      ],
+      "mac": [
+        "Shift",
+        "Option",
+        "Down"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-delete-line",
+    "title": "Delete Line",
+    "description": "Delete the current line or selected lines.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "K"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "K"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "K"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-insert-below",
+    "title": "Insert Line Below",
+    "description": "Create a new line below the current line.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Enter"
+      ],
+      "mac": [
+        "Cmd",
+        "Enter"
+      ],
+      "linux": [
+        "Ctrl",
+        "Enter"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-insert-above",
+    "title": "Insert Line Above",
+    "description": "Create a new line above the current line.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "Enter"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "Enter"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "Enter"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-indent",
+    "title": "Indent Line",
+    "description": "Increase indentation of the current line or selection.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Formatting",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "]"
+      ],
+      "mac": [
+        "Cmd",
+        "]"
+      ],
+      "linux": [
+        "Ctrl",
+        "]"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-outdent",
+    "title": "Outdent Line",
+    "description": "Decrease indentation of the current line or selection.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Formatting",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "["
+      ],
+      "mac": [
+        "Cmd",
+        "["
+      ],
+      "linux": [
+        "Ctrl",
+        "["
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-file-start",
+    "title": "Go to File Start",
+    "description": "Move caret to the start of the document.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Home"
+      ],
+      "mac": [
+        "Cmd",
+        "Up"
+      ],
+      "linux": [
+        "Ctrl",
+        "Home"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-file-end",
+    "title": "Go to File End",
+    "description": "Move caret to the end of the document.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "End"
+      ],
+      "mac": [
+        "Cmd",
+        "Down"
+      ],
+      "linux": [
+        "Ctrl",
+        "End"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-fold",
+    "title": "Fold Region",
+    "description": "Collapse the foldable region at the caret.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "["
+      ],
+      "mac": [
+        "Option",
+        "Cmd",
+        "["
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "["
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-unfold",
+    "title": "Unfold Region",
+    "description": "Expand the foldable region at the caret.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "]"
+      ],
+      "mac": [
+        "Option",
+        "Cmd",
+        "]"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "]"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-fold-all",
+    "title": "Fold All Regions",
+    "description": "Collapse all foldable regions in the active editor.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Advanced",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "K",
+        "Ctrl",
+        "0"
+      ],
+      "mac": [
+        "Cmd",
+        "K",
+        "Cmd",
+        "0"
+      ],
+      "linux": [
+        "Ctrl",
+        "K",
+        "Ctrl",
+        "0"
+      ]
+    },
+    "sequence": true,
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-unfold-all",
+    "title": "Unfold All Regions",
+    "description": "Expand all foldable regions in the active editor.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Advanced",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "K",
+        "Ctrl",
+        "J"
+      ],
+      "mac": [
+        "Cmd",
+        "K",
+        "Cmd",
+        "J"
+      ],
+      "linux": [
+        "Ctrl",
+        "K",
+        "Ctrl",
+        "J"
+      ]
+    },
+    "sequence": true,
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-toggle-comment",
+    "title": "Toggle Line Comment",
+    "description": "Comment or uncomment selected lines in the active editor.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "/"
+      ],
+      "mac": [
+        "Cmd",
+        "/"
+      ],
+      "linux": [
+        "Ctrl",
+        "/"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-block-comment",
+    "title": "Toggle Block Comment",
+    "description": "Add or remove a language-appropriate block comment.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Shift",
+        "Alt",
+        "A"
+      ],
+      "mac": [
+        "Shift",
+        "Option",
+        "A"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "A"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-wrap",
+    "title": "Toggle Word Wrap",
+    "description": "Switch long lines between wrapping and horizontal scrolling.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Accessibility",
+    "keys": {
+      "windows": [
+        "Alt",
+        "Z"
+      ],
+      "mac": [
+        "Option",
+        "Z"
+      ],
+      "linux": [
+        "Alt",
+        "Z"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-go-line",
+    "title": "Go to Line",
+    "description": "Jump to a specified line in the active editor.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "G"
+      ],
+      "mac": [
+        "Ctrl",
+        "G"
+      ],
+      "linux": [
+        "Ctrl",
+        "G"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-go-symbol",
+    "title": "Go to Symbol",
+    "description": "Search symbols in the current file and navigate to one.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "O"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "O"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "O"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-problems",
+    "title": "Show Problems",
+    "description": "Open the Problems view to review errors and warnings.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Development",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "M"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "M"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "M"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-next-error",
+    "title": "Next Error or Warning",
+    "description": "Navigate to the next reported error or warning.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "F8"
+      ],
+      "mac": [
+        "F8"
+      ],
+      "linux": [
+        "F8"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-prev-error",
+    "title": "Previous Error or Warning",
+    "description": "Navigate to the previous reported error or warning.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Shift",
+        "F8"
+      ],
+      "mac": [
+        "Shift",
+        "F8"
+      ],
+      "linux": [
+        "Shift",
+        "F8"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-back",
+    "title": "Go Back",
+    "description": "Return to the previous editor navigation location.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Alt",
+        "Left"
+      ],
+      "mac": [
+        "Ctrl",
+        "-"
+      ],
+      "linux": [
+        "Ctrl",
+        "Alt",
+        "-"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-forward",
+    "title": "Go Forward",
+    "description": "Move forward in editor navigation history.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Alt",
+        "Right"
+      ],
+      "mac": [
+        "Ctrl",
+        "Shift",
+        "-"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "-"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-find",
+    "title": "Find in Editor",
+    "description": "Search for text in the active file.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "F"
+      ],
+      "mac": [
+        "Cmd",
+        "F"
+      ],
+      "linux": [
+        "Ctrl",
+        "F"
+      ]
+    },
+    "source": "https://code.visualstudio.com/docs/editing/codebasics"
+  },
+  {
+    "id": "vscode-replace",
+    "title": "Replace in Editor",
+    "description": "Open replace controls for the active file.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "H"
+      ],
+      "mac": [
+        "Option",
+        "Cmd",
+        "F"
+      ],
+      "linux": [
+        "Ctrl",
+        "H"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-next-match",
+    "title": "Find Next Match",
+    "description": "Move to the next occurrence in the active find query.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "F3"
+      ],
+      "mac": [
+        "Cmd",
+        "G"
+      ],
+      "linux": [
+        "F3"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-prev-match",
+    "title": "Find Previous Match",
+    "description": "Move to the previous occurrence in the active find query.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "Shift",
+        "F3"
+      ],
+      "mac": [
+        "Shift",
+        "Cmd",
+        "G"
+      ],
+      "linux": [
+        "Shift",
+        "F3"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-all-find-matches",
+    "title": "Select All Find Matches",
+    "description": "Select every occurrence matching the active find query.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Advanced",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "Alt",
+        "Enter"
+      ],
+      "mac": [
+        "Option",
+        "Enter"
+      ],
+      "linux": [
+        "Alt",
+        "Enter"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-search-files",
+    "title": "Search Across Files",
+    "description": "Search text across files in the opened folder or workspace.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "F"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "F"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "F"
+      ]
+    },
+    "source": "https://code.visualstudio.com/docs/editing/codebasics"
+  },
+  {
+    "id": "vscode-replace-files",
+    "title": "Replace Across Files",
+    "description": "Search and replace matching text across workspace files.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Search",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "H"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "H"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "H"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-add-match",
+    "title": "Add Next Match to Selection",
+    "description": "Add the next occurrence of the selection as another caret.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "D"
+      ],
+      "mac": [
+        "Cmd",
+        "D"
+      ],
+      "linux": [
+        "Ctrl",
+        "D"
+      ]
+    },
+    "source": "https://code.visualstudio.com/docs/editing/codebasics"
+  },
+  {
+    "id": "vscode-skip-match",
+    "title": "Skip Next Match",
+    "description": "Move the last selection to the next match without adding a caret.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Advanced",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "K",
+        "Ctrl",
+        "D"
+      ],
+      "mac": [
+        "Cmd",
+        "K",
+        "Cmd",
+        "D"
+      ],
+      "linux": [
+        "Ctrl",
+        "K",
+        "Ctrl",
+        "D"
+      ]
+    },
+    "sequence": true,
+    "source": "https://code.visualstudio.com/docs/editing/codebasics"
+  },
+  {
+    "id": "vscode-cursor-above",
+    "title": "Insert Cursor Above",
+    "description": "Add a caret on the line above; graphics drivers can intercept this shortcut.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Alt",
+        "Up"
+      ],
+      "mac": [
+        "Option",
+        "Cmd",
+        "Up"
+      ],
+      "linux": [
+        "Shift",
+        "Alt",
+        "Up"
+      ]
+    },
+    "source": "https://code.visualstudio.com/docs/editing/codebasics"
+  },
+  {
+    "id": "vscode-cursor-below",
+    "title": "Insert Cursor Below",
+    "description": "Add a caret on the line below; graphics drivers can intercept this shortcut.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Alt",
+        "Down"
+      ],
+      "mac": [
+        "Option",
+        "Cmd",
+        "Down"
+      ],
+      "linux": [
+        "Shift",
+        "Alt",
+        "Down"
+      ]
+    },
+    "source": "https://code.visualstudio.com/docs/editing/codebasics"
+  },
+  {
+    "id": "vscode-alt-click",
+    "title": "Insert Cursor at Click",
+    "description": "Alt-click to add a caret; on some Linux distributions this may not work and can be remapped via editor.multiCursorModifier.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Alt",
+        "Click"
+      ],
+      "mac": [
+        "Option",
+        "Click"
+      ],
+      "linux": [
+        "Alt",
+        "Click"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf"
+  },
+  {
+    "id": "vscode-undo-cursor",
+    "title": "Undo Cursor Operation",
+    "description": "Undo the last cursor or selection operation.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "U"
+      ],
+      "mac": [
+        "Cmd",
+        "U"
+      ],
+      "linux": [
+        "Ctrl",
+        "U"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-cursors-line-ends",
+    "title": "Cursor at Each Selected Line End",
+    "description": "Add a caret at the end of each selected line.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Advanced",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Shift",
+        "Alt",
+        "I"
+      ],
+      "mac": [
+        "Shift",
+        "Option",
+        "I"
+      ],
+      "linux": [
+        "Shift",
+        "Alt",
+        "I"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-select-line",
+    "title": "Select Current Line",
+    "description": "Select the line containing the caret.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "L"
+      ],
+      "mac": [
+        "Cmd",
+        "L"
+      ],
+      "linux": [
+        "Ctrl",
+        "L"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-select-all-occurrences",
+    "title": "Select All Occurrences",
+    "description": "Create a caret at every occurrence of the selected text.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Advanced",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "L"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "L"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "L"
+      ]
+    },
+    "source": "https://code.visualstudio.com/docs/editing/codebasics"
+  },
+  {
+    "id": "vscode-select-word-occurrences",
+    "title": "Select All Occurrences of Word",
+    "description": "Select every occurrence of the word at the caret.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Advanced",
+    "task": "Editing",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "F2"
+      ],
+      "mac": [
+        "Cmd",
+        "F2"
+      ],
+      "linux": [
+        "Ctrl",
+        "F2"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-suggestions",
+    "title": "Trigger Suggestions",
+    "description": "Open code completion suggestions at the caret.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Development",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Space"
+      ],
+      "mac": [
+        "Ctrl",
+        "Space"
+      ],
+      "linux": [
+        "Ctrl",
+        "Space"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-parameter-hints",
+    "title": "Trigger Parameter Hints",
+    "description": "Show signature and parameter help for a call.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Development",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "Space"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "Space"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "Space"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-format-document",
+    "title": "Format Document",
+    "description": "Format the entire active document with an available formatter.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Formatting",
+    "keys": {
+      "windows": [
+        "Shift",
+        "Alt",
+        "F"
+      ],
+      "mac": [
+        "Shift",
+        "Option",
+        "F"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "I"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-format-selection",
+    "title": "Format Selection",
+    "description": "Format selected code with an available formatter.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Formatting",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "K",
+        "Ctrl",
+        "F"
+      ],
+      "mac": [
+        "Cmd",
+        "K",
+        "Cmd",
+        "F"
+      ],
+      "linux": [
+        "Ctrl",
+        "K",
+        "Ctrl",
+        "F"
+      ]
+    },
+    "sequence": true,
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-definition",
+    "title": "Go to Definition",
+    "description": "Navigate to a symbol's definition when language support is available.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "F12"
+      ],
+      "mac": [
+        "F12"
+      ],
+      "linux": [
+        "F12"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-peek-definition",
+    "title": "Peek Definition",
+    "description": "Inspect a symbol definition inline without leaving the editor.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Navigation",
+    "keys": {
+      "windows": [
+        "Alt",
+        "F12"
+      ],
+      "mac": [
+        "Option",
+        "F12"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "F10"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-quick-fix",
+    "title": "Quick Fix",
+    "description": "Show available code actions or fixes at the caret.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Development",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "."
+      ],
+      "mac": [
+        "Cmd",
+        "."
+      ],
+      "linux": [
+        "Ctrl",
+        "."
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-rename",
+    "title": "Rename Symbol",
+    "description": "Rename the symbol at the caret across supported references.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Development",
+    "keys": {
+      "windows": [
+        "F2"
+      ],
+      "mac": [
+        "F2"
+      ],
+      "linux": [
+        "F2"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-save",
+    "title": "Save File",
+    "description": "Save changes in the active editor.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "S"
+      ],
+      "mac": [
+        "Cmd",
+        "S"
+      ],
+      "linux": [
+        "Ctrl",
+        "S"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-save-as",
+    "title": "Save As",
+    "description": "Save the active file under another name or location.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "S"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "S"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "S"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-new-file",
+    "title": "New File",
+    "description": "Create a new untitled file in the current window.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "N"
+      ],
+      "mac": [
+        "Cmd",
+        "N"
+      ],
+      "linux": [
+        "Ctrl",
+        "N"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-open-file",
+    "title": "Open File",
+    "description": "Choose a file through the system file picker.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "O"
+      ],
+      "mac": [
+        "Cmd",
+        "O"
+      ],
+      "linux": [
+        "Ctrl",
+        "O"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-reopen-editor",
+    "title": "Reopen Closed Editor",
+    "description": "Reopen the most recently closed editor tab.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "T"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "T"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "T"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-next-editor",
+    "title": "Open Next Editor",
+    "description": "Switch to the next recently opened editor.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Tab"
+      ],
+      "mac": [
+        "Ctrl",
+        "Tab"
+      ],
+      "linux": [
+        "Ctrl",
+        "Tab"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-split-editor",
+    "title": "Split Editor",
+    "description": "Create another editor group; shortcut uses the US keyboard layout.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "\\"
+      ],
+      "mac": [
+        "Cmd",
+        "\\"
+      ],
+      "linux": [
+        "Ctrl",
+        "\\"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-group-one",
+    "title": "Focus Editor Group One",
+    "description": "Move focus to the first editor group.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "1"
+      ],
+      "mac": [
+        "Cmd",
+        "1"
+      ],
+      "linux": [
+        "Ctrl",
+        "1"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-sidebar",
+    "title": "Toggle Sidebar",
+    "description": "Show or hide the primary sidebar.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Windows & tabs",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "B"
+      ],
+      "mac": [
+        "Cmd",
+        "B"
+      ],
+      "linux": [
+        "Ctrl",
+        "B"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-explorer",
+    "title": "Show Explorer",
+    "description": "Focus Explorer to browse workspace files.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Files",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "E"
+      ],
+      "mac": [
+        "Cmd",
+        "Shift",
+        "E"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "E"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-terminal",
+    "title": "Toggle Integrated Terminal",
+    "description": "Show or hide the terminal; backtick key assumes US keyboard layout.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Beginner",
+    "task": "Development",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "`"
+      ],
+      "mac": [
+        "Ctrl",
+        "`"
+      ],
+      "linux": [
+        "Ctrl",
+        "`"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-new-terminal",
+    "title": "Create New Terminal",
+    "description": "Create an integrated terminal; backtick key assumes US keyboard layout.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Development",
+    "keys": {
+      "windows": [
+        "Ctrl",
+        "Shift",
+        "`"
+      ],
+      "mac": [
+        "Ctrl",
+        "Shift",
+        "`"
+      ],
+      "linux": [
+        "Ctrl",
+        "Shift",
+        "`"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-debug-start",
+    "title": "Start or Continue Debugging",
+    "description": "Start a debug session or continue after a pause.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Development",
+    "keys": {
+      "windows": [
+        "F5"
+      ],
+      "mac": [
+        "F5"
+      ],
+      "linux": [
+        "F5"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-debug-stop",
+    "title": "Stop Debugging",
+    "description": "Stop the active debug session.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Development",
+    "keys": {
+      "windows": [
+        "Shift",
+        "F5"
+      ],
+      "mac": [
+        "Shift",
+        "F5"
+      ],
+      "linux": [
+        "Shift",
+        "F5"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-breakpoint",
+    "title": "Toggle Breakpoint",
+    "description": "Set or remove a breakpoint on the current line.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Intermediate",
+    "task": "Development",
+    "keys": {
+      "windows": [
+        "F9"
+      ],
+      "mac": [
+        "F9"
+      ],
+      "linux": [
+        "F9"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-step-over",
+    "title": "Step Over",
+    "description": "Execute current statement and pause at the next without entering calls.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Advanced",
+    "task": "Development",
+    "keys": {
+      "windows": [
+        "F10"
+      ],
+      "mac": [
+        "F10"
+      ],
+      "linux": [
+        "F10"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-step-into",
+    "title": "Step Into",
+    "description": "Enter the function or method called by the current statement.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Advanced",
+    "task": "Development",
+    "keys": {
+      "windows": [
+        "F11"
+      ],
+      "mac": [
+        "F11"
+      ],
+      "linux": [
+        "F11"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  },
+  {
+    "id": "vscode-step-out",
+    "title": "Step Out",
+    "description": "Continue until the current function returns.",
+    "category": "vscode",
+    "app": "Visual Studio Code",
+    "level": "Advanced",
+    "task": "Development",
+    "keys": {
+      "windows": [
+        "Shift",
+        "F11"
+      ],
+      "mac": [
+        "Shift",
+        "F11"
+      ],
+      "linux": [
+        "Shift",
+        "F11"
+      ]
+    },
+    "source": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"
+  }
+]
