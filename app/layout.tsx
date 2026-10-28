@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description:
     "Less clicking. More doing. Explore keyboard shortcuts for Windows, macOS, Linux, browsers, code editors, and Vim. Search, save, and practice your favorites.",
   applicationName: "Keysmith",
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.svg` },
   openGraph: {
     title: "Keysmith.",
     description:

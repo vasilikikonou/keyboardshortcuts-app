@@ -47,6 +47,10 @@ The multi-stage Dockerfile installs the exact npm lockfile with `npm ci`, runs `
 
 You can also host the contents of `out/` on any static web server. The included Nginx configuration serves `/` and the exported assets; it does not depend on a platform-specific proxy.
 
+### Deploy to GitHub Pages
+
+The GitHub Pages workflow builds with `npm run predeploy`, which sets the project-site base path (`/keyboardshortcuts-app`) before exporting the site. Use the same command when creating a Pages export locally. A plain `npm run build` is configured for hosting at the domain root, so its asset URLs will not work when uploaded to this repository's project-site URL.
+
 ## How it renders: SSG plus client hydration, not CSR-only
 
 The project uses the **Next.js App Router**. `app/page.tsx` is a Server Component and identifies the home route. At build time, Next.js statically renders that route into HTML and writes it, its JavaScript, styles, fonts, and images to `out/`. The export can therefore show page content before browser JavaScript has loaded.

@@ -45,8 +45,9 @@ import {
 
 type View = "discover" | "favorites" | "recent";
 type Collection = "all" | "beginner" | "popular";
-const HERO = "/images/keyboard-hero.webp";
-const PRACTICE = "/images/practice-keys.webp";
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH;
+const HERO = `${BASE_PATH}/images/keyboard-hero.webp`;
+const PRACTICE = `${BASE_PATH}/images/practice-keys.webp`;
 
 export default function Home() {
   const [view, setView] = useState<View>("discover");
