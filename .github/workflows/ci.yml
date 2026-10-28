@@ -69,7 +69,8 @@ jobs:
 
           cache-from: type=registry,ref=${{ secrets.DOCKERHUB_USERNAME }}/my-react-app:buildcache
           cache-to: type=registry,ref=${{ secrets.DOCKERHUB_USERNAME }}/my-react-app:buildcache,mode=max
-deploy-pages:
+            
+  deploy-pages:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     needs: lint-and-test
