@@ -1,7 +1,7 @@
 import { Check, RotateCcw, X } from "lucide-react";
 import * as Dialog from "@radix-ui/react-dialog";
 import { useEffect, useMemo, useState } from "react";
-import { type Platform, type Shortcut } from "@/lib/shortcuts";
+import { getKeys, type Platform, type Shortcut } from "@/lib/shortcuts";
 
 type PracticeQuizProps = {
   shortcuts: Shortcut[];
@@ -23,9 +23,7 @@ type QuizQuestion = {
 };
 
 function comboFor(shortcut: Shortcut, platform: Platform) {
-  return (shortcut.keys[platform] ?? []).join(
-    shortcut.sequence ? " → " : " + "
-  );
+  return getKeys(shortcut, platform).join(shortcut.sequence ? " → " : " + ");
 }
 
 function shuffle<T>(items: T[]) {

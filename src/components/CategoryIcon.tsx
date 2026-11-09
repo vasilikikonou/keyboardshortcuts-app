@@ -27,27 +27,6 @@ export const categories = [
     icon: Keyboard,
   },
   {
-    id: "windows",
-    label: "Windows",
-    short: "Work your windows",
-    color: "blue",
-    icon: Monitor,
-  },
-  {
-    id: "macos",
-    label: "macOS",
-    short: "Make it a Mac thing",
-    color: "purple",
-    icon: Command,
-  },
-  {
-    id: "linux",
-    label: "Linux",
-    short: "Desktop & terminal",
-    color: "yellow",
-    icon: Terminal,
-  },
-  {
     id: "browsers",
     label: "Browsers",
     short: "Surf a little faster",
@@ -86,7 +65,33 @@ export function categoryMatches(id: string, category: string) {
 export function categoryInfo(id: string) {
   return (
     categories.find(c => c.id === id) ??
-    (["vscode", "jetbrains"].includes(id) ? categories[6] : categories[0])
+    (["vscode", "jetbrains"].includes(id)
+      ? categories.find(c => c.id === "editors")!
+      : id === "windows"
+        ? {
+            id,
+            label: "Windows",
+            short: "Windows shortcuts",
+            color: "blue",
+            icon: Monitor,
+          }
+        : id === "macos"
+          ? {
+              id,
+              label: "macOS",
+              short: "macOS shortcuts",
+              color: "purple",
+              icon: Command,
+            }
+          : id === "linux"
+            ? {
+                id,
+                label: "Linux",
+                short: "Linux shortcuts",
+                color: "yellow",
+                icon: Terminal,
+              }
+            : categories[0])
   );
 }
 export function CategoryIcon({

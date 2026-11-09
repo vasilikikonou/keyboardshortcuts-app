@@ -8,18 +8,9 @@ import universalData from "./universal.json";
 import vimData from "./vim.json";
 import vsCodeData from "./vscode.json";
 import windowsData from "./windows.json";
+import { mergeBrowserShortcuts } from "./groupBrowsers";
+import { mergeSystemShortcuts } from "./mergeSystemShortcuts";
 
-const collections = [
-  browserData,
-  jetBrainsData,
-  linuxData,
-  macData,
-  microsoft365Data,
-  universalData,
-  vimData,
-  vsCodeData,
-  windowsData,
-].map(data => data as unknown as Shortcut[]);
 const modifiers = new Set([
   "Ctrl",
   "Control",
@@ -63,10 +54,8 @@ function sequenceKeys(keys: string[]) {
   if (pending.length) groups.push(...pending);
   return groups;
 }
-export const shortcuts: Shortcut[] = collections
-  .flat()
-  .filter(item => item.id && item.title && item.keys)
-  .map(item => ({
+function normalizeShortcut(item: Shortcut): Shortcut {
+  return {
     ...item,
     app:
       item.app === "Universal basics" && item.category === "windows"
@@ -80,12 +69,32 @@ export const shortcuts: Shortcut[] = collections
         item.sequence ? sequenceKeys(keys ?? []) : expandKeys(keys ?? []),
       ])
     ),
-  }));
+  };
+}
+
+const browserShortcuts = mergeBrowserShortcuts(
+  (browserData as unknown as Shortcut[]).map(normalizeShortcut)
+);
+const otherCollections = [
+  jetBrainsData,
+  linuxData,
+  macData,
+  microsoft365Data,
+  universalData,
+  vimData,
+  vsCodeData,
+  windowsData,
+].map(data => (data as unknown as Shortcut[]).map(normalizeShortcut));
+
+export const shortcuts: Shortcut[] = [
+  browserShortcuts,
+  mergeSystemShortcuts(otherCollections.flat()),
+]
+  .flat()
+  .filter(item => item.id && item.title && item.keys);
+
 export const categoryOrder = [
   "universal",
-  "windows",
-  "macos",
-  "linux",
   "browsers",
   "vscode",
   "jetbrains",

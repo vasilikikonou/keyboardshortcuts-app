@@ -36,27 +36,35 @@ import KeyCombo from "@/components/KeyCombo";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 import {
   comboText,
+  getShortcutApps,
+  getSupportedPlatforms,
   matchesSearch,
   popularity,
+  platformFilterNames,
   platformNames,
   type Platform,
+  type PlatformFilter,
   type Shortcut,
 } from "@/lib/shortcuts";
 
 type View = "discover" | "favorites" | "recent";
 type Collection = "all" | "beginner" | "popular";
-const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH;
-const HERO = `${BASE_PATH}/images/keyboard-hero.webp`;
-const PRACTICE = `${BASE_PATH}/images/practice-keys.webp`;
+const HERO = "/images/keyboard-hero.webp";
+const PRACTICE = "/images/practice-keys.webp";
+function shortcutIds(shortcut: Shortcut) {
+  return [shortcut.id, ...(shortcut.aliases ?? [])];
+}
 
 export default function Home() {
   const [view, setView] = useState<View>("discover");
   const [category, setCategory] = useState("all");
   const [collection, setCollection] = useState<Collection>("all");
-  const [platform, setPlatform] = useLocalStorage<Platform>(
-    "keysmith-platform",
-    "windows"
+  const [platformFilter, setPlatformFilter] = useLocalStorage<PlatformFilter>(
+    "keysmith-platform-filter",
+    "all"
   );
+  const platform: Platform =
+    platformFilter === "all" ? "windows" : platformFilter;
   const [favorites, setFavorites] = useLocalStorage<string[]>(
     "keysmith-favorites",
     []
@@ -111,25 +119,60 @@ export default function Home() {
   }, [selected, quiz, mobileMenu]);
   useEffect(() => {
     setLimit(12);
-  }, [query, category, collection, view, task, app, platform, sort]);
+  }, [query, category, collection, view, task, app, platformFilter, sort]);
 
-  const favoriteSet = useMemo(() => new Set(favorites), [favorites]);
+  const favoriteSet = useMemo(() => {
+    const stored = new Set(favorites);
+    return new Set(
+      shortcuts.flatMap(shortcut =>
+        shortcutIds(shortcut).some(id => stored.has(id))
+          ? shortcutIds(shortcut)
+          : []
+      )
+    );
+  }, [favorites]);
   const filtered = useMemo(() => {
     let result = shortcuts.filter(s => {
       if (view === "favorites" && !favoriteSet.has(s.id)) return false;
-      if (view === "recent" && !recent.includes(s.id)) return false;
+      if (view === "recent" && !shortcutIds(s).some(id => recent.includes(id)))
+        return false;
       if (!categoryMatches(category, s.category)) return false;
-      // Saved and recent collections keep shortcuts from other platforms visible.
-      if (view === "discover" && !s.keys[platform]) return false;
+      if (
+        platformFilter !== "all" &&
+        !getSupportedPlatforms(s).includes(platformFilter)
+      )
+        return false;
       if (collection === "beginner" && s.level !== "Beginner") return false;
       if (collection === "popular" && popularity(s) <= 10) return false;
       if (task !== "all" && s.task !== task) return false;
-      if (app !== "all" && s.app !== app) return false;
-      return matchesSearch(s, query, platform);
+      if (
+        app !== "all" &&
+        !getShortcutApps(
+          s,
+          platformFilter === "all" ? undefined : platformFilter
+        ).includes(app)
+      )
+        return false;
+      return matchesSearch(
+        s,
+        query,
+        platformFilter === "all" ? undefined : platformFilter
+      );
     });
     result = [...result].sort((a, b) => {
       if (view === "recent" && sort === "recommended")
-        return recent.indexOf(a.id) - recent.indexOf(b.id);
+        return (
+          Math.min(
+            ...shortcutIds(a)
+              .map(id => recent.indexOf(id))
+              .filter(index => index >= 0)
+          ) -
+          Math.min(
+            ...shortcutIds(b)
+              .map(id => recent.indexOf(id))
+              .filter(index => index >= 0)
+          )
+        );
       if (sort === "alphabetical") return a.title.localeCompare(b.title);
       if (sort === "app")
         return a.app.localeCompare(b.app) || a.title.localeCompare(b.title);
@@ -141,7 +184,7 @@ export default function Home() {
     favoriteSet,
     recent,
     category,
-    platform,
+    platformFilter,
     collection,
     task,
     app,
@@ -157,20 +200,31 @@ export default function Home() {
             .filter(
               s =>
                 categoryMatches(category, s.category) &&
-                (view !== "discover" || s.keys[platform])
+                (platformFilter === "all" ||
+                  getSupportedPlatforms(s).includes(platformFilter))
             )
-            .map(s => s.app)
+            .flatMap(s =>
+              getShortcutApps(
+                s,
+                platformFilter === "all" ? undefined : platformFilter
+              )
+            )
         ),
       ].sort(),
-    [category, platform, view]
+    [category, platformFilter, view]
   );
   const tasks = useMemo(
     () => [...new Set(shortcuts.map(s => s.task))].sort(),
     []
   );
   const platformShortcuts = useMemo(
-    () => shortcuts.filter(s => s.keys[platform]),
-    [platform]
+    () =>
+      shortcuts.filter(
+        s =>
+          platformFilter === "all" ||
+          getSupportedPlatforms(s).includes(platformFilter)
+      ),
+    [platformFilter]
   );
   const [utcDay, setUtcDay] = useState(0);
   useEffect(() => {
@@ -178,12 +232,15 @@ export default function Home() {
   }, []);
   const daily = useMemo(() => {
     const choices = platformShortcuts.filter(
-      s => s.category !== "universal" && s.level !== "Advanced"
+      s =>
+        getSupportedPlatforms(s).includes(platform) &&
+        s.category !== "universal" &&
+        s.level !== "Advanced"
     );
     return choices.length
       ? choices[utcDay % choices.length]
       : platformShortcuts[0];
-  }, [platformShortcuts, utcDay]);
+  }, [platformShortcuts, platform, utcDay]);
   const counts = useMemo(
     () =>
       Object.fromEntries(
@@ -194,19 +251,24 @@ export default function Home() {
       ),
     []
   );
-  const activeFilters = (task !== "all" ? 1 : 0) + (app !== "all" ? 1 : 0);
+  const activeFilters =
+    (task !== "all" ? 1 : 0) +
+    (app !== "all" ? 1 : 0) +
+    (platformFilter !== "all" ? 1 : 0);
 
-  function toggleFavorite(id: string) {
+  function toggleFavorite(shortcut: Shortcut) {
+    const ids = shortcutIds(shortcut);
     setFavorites(previous =>
-      previous.includes(id)
-        ? previous.filter(value => value !== id)
-        : [...previous, id]
+      ids.some(id => previous.includes(id))
+        ? previous.filter(value => !ids.includes(value))
+        : [...previous, shortcut.id]
     );
   }
   function openShortcut(shortcut: Shortcut) {
     setSelected(shortcut);
+    const ids = shortcutIds(shortcut);
     setRecent(previous =>
-      [shortcut.id, ...previous.filter(id => id !== shortcut.id)].slice(0, 30)
+      [shortcut.id, ...previous.filter(id => !ids.includes(id))].slice(0, 30)
     );
   }
   function randomShortcut() {
@@ -220,9 +282,6 @@ export default function Home() {
     setApp("all");
     setTask("all");
     setMobileMenu(false);
-    if (id === "macos") setPlatform("mac");
-    if (id === "windows") setPlatform("windows");
-    if (id === "linux") setPlatform("linux");
   }
   function changeView(next: View) {
     setView(next);
@@ -239,6 +298,7 @@ export default function Home() {
     setCollection("all");
     setTask("all");
     setApp("all");
+    setPlatformFilter("all");
   }
   const sectionTitle =
     view === "favorites"
@@ -287,7 +347,7 @@ export default function Home() {
           </span>
         </button>
         <span className="sidebar-caption">
-          KEYMAP / {platformNames[platform]}
+          KEYMAP / {platformFilterNames[platformFilter]}
         </span>
         <nav className="main-nav" aria-label="Main navigation">
           <button
@@ -368,8 +428,8 @@ export default function Home() {
       </aside>
 
       <div className="main-shell" inert={mobileMenu}>
-        <header className="topbar">
-          <div className="topbar-left">
+        <main className="workspace">
+          <div className="mobile-navigation-row">
             <button
               ref={menuButtonRef}
               className="icon-button mobile-menu-button"
@@ -378,26 +438,10 @@ export default function Home() {
               aria-controls="shortcut-navigation"
               onClick={() => setMobileMenu(true)}
             >
-              <Menu size={21} />
+              <Menu size={19} />
+              <span>Browse shortcuts</span>
             </button>
-            <span className="breadcrumb-home">Your workspace</span>
-            <span className="breadcrumb-slash">/</span>
-            <span>
-              {view === "discover"
-                ? "Explore"
-                : view === "favorites"
-                  ? "Favorites"
-                  : "Recently viewed"}
-            </span>
           </div>
-          <div className="topbar-right">
-            <span className="edition-stamp">
-              <span>KEYSMITH / FIELD GUIDE</span>
-              <strong>608 SHORTCUTS · V.01</strong>
-            </span>
-          </div>
-        </header>
-        <main className="workspace">
           {view === "discover" ? (
             <section className="hero">
               <div className="hero-copy">
@@ -419,7 +463,7 @@ export default function Home() {
                 </p>
                 <div className="hero-bottom">
                   <span>
-                    <strong>{shortcuts.length.toLocaleString()}+</strong>{" "}
+                    <strong>{shortcuts.length.toLocaleString()}</strong>{" "}
                     shortcuts to discover
                   </span>
                   <span className="hero-stat-separator" />
@@ -575,6 +619,24 @@ export default function Home() {
                 </button>
               </div>
               <div className="toolbar-controls">
+                <label className="os-filter-select">
+                  <span>OS</span>
+                  <select
+                    value={platformFilter}
+                    aria-label="Filter by operating system"
+                    onChange={e =>
+                      setPlatformFilter(e.target.value as PlatformFilter)
+                    }
+                  >
+                    {Object.entries(platformFilterNames).map(
+                      ([value, label]) => (
+                        <option key={value} value={value}>
+                          {label}
+                        </option>
+                      )
+                    )}
+                  </select>
+                </label>
                 <button
                   className={`filter-button ${showFilters || activeFilters ? "active" : ""}`}
                   aria-expanded={showFilters}
@@ -635,8 +697,10 @@ export default function Home() {
                   </select>
                 </label>
                 <span className="filter-platform-note">
-                  <Check size={14} /> Showing {platformNames[platform]} key
-                  combinations
+                  <Check size={14} />
+                  {platformFilter === "all"
+                    ? "All OS shortcuts; Windows keys shown when available"
+                    : `Showing ${platformNames[platformFilter]} key combinations`}
                 </span>
                 {activeFilters > 0 && (
                   <button
@@ -644,6 +708,7 @@ export default function Home() {
                     onClick={() => {
                       setTask("all");
                       setApp("all");
+                      setPlatformFilter("all");
                     }}
                   >
                     Reset filters <X size={13} />
@@ -663,8 +728,9 @@ export default function Home() {
                     key={shortcut.id}
                     shortcut={shortcut}
                     platform={platform}
+                    platformFilter={platformFilter}
                     favorite={favoriteSet.has(shortcut.id)}
-                    onFavorite={() => toggleFavorite(shortcut.id)}
+                    onFavorite={() => toggleFavorite(shortcut)}
                     onSelect={() => openShortcut(shortcut)}
                   />
                 ))}
@@ -759,7 +825,7 @@ export default function Home() {
         platform={platform}
         shortcuts={shortcuts}
         favorite={!!selected && favoriteSet.has(selected.id)}
-        onFavorite={() => selected && toggleFavorite(selected.id)}
+        onFavorite={() => selected && toggleFavorite(selected)}
         onClose={() => setSelected(null)}
         onSelect={openShortcut}
       />
@@ -773,7 +839,7 @@ export default function Home() {
       <div className="print-sheet">
         <h1>Keysmith · Your shortcut cheatsheet</h1>
         <p>
-          {platformNames[platform]} ·{" "}
+          {platformFilterNames[platformFilter]} ·{" "}
           {category === "all" ? "All categories" : category} · {filtered.length}{" "}
           shortcuts
         </p>

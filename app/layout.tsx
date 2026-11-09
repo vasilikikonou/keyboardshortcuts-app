@@ -18,13 +18,13 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Keysmith.",
+  title: "Keysmith — Your shortcut to everything",
   description:
     "Less clicking. More doing. Explore keyboard shortcuts for Windows, macOS, Linux, browsers, code editors, and Vim. Search, save, and practice your favorites.",
   applicationName: "Keysmith",
-  icons: { icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.svg` },
+  icons: { icon: "/favicon.svg" },
   openGraph: {
-    title: "Keysmith.",
+    title: "Keysmith — Your shortcut to everything",
     description:
       "Less clicking. More doing. Explore keyboard shortcuts for Windows, macOS, Linux, browsers, code editors, and Vim. Search, save, and practice your favorites.",
     type: "website",

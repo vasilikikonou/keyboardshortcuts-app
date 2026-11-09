@@ -3,7 +3,9 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { useEffect, useMemo, useState } from "react";
 import KeyCombo from "./KeyCombo";
 import {
+  getBrowserVariants,
   getKeys,
+  getSupportedPlatforms,
   platformNames,
   type Platform,
   type Shortcut,
@@ -19,7 +21,14 @@ type ShortcutDetailProps = {
   onSelect: (shortcut: Shortcut) => void;
 };
 
-const platforms: Platform[] = ["windows", "mac", "linux"];
+function browserTone(app: string) {
+  const name = app.toLowerCase();
+  if (name.includes("chrome")) return "green";
+  if (name.includes("firefox")) return "orange";
+  if (name.includes("edge")) return "blue";
+  if (name.includes("safari")) return "purple";
+  return "mint";
+}
 
 function comboFor(shortcut: Shortcut, platform: Platform) {
   return getKeys(shortcut, platform).join(shortcut.sequence ? " → " : " + ");
@@ -64,10 +73,12 @@ export default function ShortcutDetail({
 
   const availableMappings = useMemo(() => {
     if (!shortcut) return [];
-    return platforms.filter(
-      candidate => (shortcut.keys[candidate] ?? []).length > 0
-    );
+    return getSupportedPlatforms(shortcut);
   }, [shortcut]);
+  const browserVariants = useMemo(
+    () => (shortcut ? getBrowserVariants(shortcut) : []),
+    [shortcut]
+  );
 
   const related = useMemo(() => {
     if (!shortcut) return [];
@@ -186,7 +197,7 @@ export default function ShortcutDetail({
             )}
           </dl>
 
-          {availableMappings.length > 0 && (
+          {availableMappings.length > 0 && browserVariants.length === 0 && (
             <section
               className="detail-platforms"
               aria-labelledby="platform-mappings-title"
@@ -205,6 +216,73 @@ export default function ShortcutDetail({
               ))}
             </section>
           )}
+
+          {browserVariants.length > 0 && (
+            <section
+              className="detail-platforms detail-browser-variants"
+              aria-labelledby="browser-variants-title"
+            >
+              <h2 id="browser-variants-title" className="detail-label">
+                Browser versions · keys and official references
+              </h2>
+              {browserVariants.map(variant => {
+                const variantShortcut: Shortcut = {
+                  ...shortcut,
+                  app: variant.app,
+                  description: variant.description,
+                  keys: variant.keys,
+                  source: variant.source,
+                  browserApps: undefined,
+                  browserVariants: undefined,
+                };
+                const variantPlatforms = getSupportedPlatforms(variantShortcut);
+                return (
+                  <div className="detail-browser-variant" key={variant.app}>
+                    <div className="detail-browser-heading">
+                      <span
+                        className={`taxonomy-tag ${browserTone(variant.app)}`}
+                      >
+                        {variant.app}
+                      </span>
+                      <a href={variant.source} target="_blank" rel="noreferrer">
+                        Official source
+                      </a>
+                    </div>
+                    <p>{variant.description}</p>
+                    {variantPlatforms.map(candidate => (
+                      <div className="detail-mapping" key={candidate}>
+                        <span>{platformNames[candidate]}</span>
+                        <KeyCombo
+                          shortcut={variantShortcut}
+                          platform={candidate}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                );
+              })}
+            </section>
+          )}
+
+          {shortcut.sourceReferences &&
+            shortcut.sourceReferences.length > 0 && (
+              <section className="detail-platforms detail-source-references">
+                <h2 className="detail-label">Original platform references</h2>
+                <div className="detail-source-list">
+                  {shortcut.sourceReferences.map(reference => (
+                    <a
+                      key={`${reference.url}-${reference.label}`}
+                      href={reference.url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span>{reference.label}</span>
+                      <ExternalLink size={12} />
+                    </a>
+                  ))}
+                </div>
+              </section>
+            )}
 
           <div className="detail-actions">
             <button className="primary-button" type="button" onClick={copyKeys}>

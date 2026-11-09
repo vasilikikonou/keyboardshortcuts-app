@@ -3,6 +3,8 @@ import test from "node:test";
 import {
   comboText,
   getKeys,
+  getShortcutApps,
+  getSupportedPlatforms,
   matchesSearch,
   normalizeSearch,
   popularity,
@@ -17,7 +19,7 @@ const copy: Shortcut = {
   level: "Beginner",
   task: "Editing",
   keys: { windows: ["Ctrl", "C"], mac: ["Cmd", "C"], linux: ["Ctrl", "C"] },
-  source: "https://support.microsoft.com",
+  source: "https://support.apple.com",
 };
 test("matches actions, descriptions, and applications", () => {
   assert.equal(matchesSearch(copy, "copy"), true);
@@ -55,6 +57,10 @@ test("uses a safe display fallback for saved platform-specific shortcuts", () =>
   );
 });
 
+test("reports all operating systems supported by a shared shortcut", () => {
+  assert.deepEqual(getSupportedPlatforms(copy), ["windows", "mac", "linux"]);
+});
+
 test("normalizes common modifier aliases", () => {
   assert.equal(normalizeSearch("Option + Command + C"), "altcmdc");
 });
@@ -75,4 +81,57 @@ test("searches only the active platform mapping when one is selected", () => {
   assert.equal(matchesSearch(copy, "Ctrl+C", "mac"), false);
   assert.equal(matchesSearch(copy, "Cmd+C", "mac"), true);
   assert.equal(matchesSearch(copy, "Ctrl+C", "windows"), true);
+  assert.equal(matchesSearch(copy, "Cmd", "windows"), false);
+  assert.equal(matchesSearch(copy, "Ctrl", "mac"), false);
+  assert.equal(matchesSearch(copy, "macOS", "windows"), false);
+  assert.equal(matchesSearch(copy, "Windows", "mac"), false);
+  assert.equal(matchesSearch(copy, "copy", "mac"), true);
+  assert.equal(matchesSearch(copy, "clipboard", "mac"), true);
+  const windowsOnly = { ...copy, keys: { windows: ["Ctrl", "C"] } };
+  assert.equal(matchesSearch(windowsOnly, "Windows"), true);
+  assert.equal(matchesSearch(windowsOnly, "macOS"), false);
+});
+
+test("searches merged browser labels and each browser key mapping", () => {
+  const browserShortcut: Shortcut = {
+    ...copy,
+    id: "browser-tab",
+    title: "New tab",
+    category: "browsers",
+    app: "Browsers",
+    browserApps: ["Google Chrome", "Safari"],
+    browserVariants: [
+      {
+        app: "Google Chrome",
+        description: "Open a new tab in Chrome.",
+        keys: { windows: ["Ctrl", "T"], mac: ["Cmd", "T"] },
+        source: "https://chrome.example/",
+      },
+      {
+        app: "Safari",
+        description: "Open a new tab in Safari.",
+        keys: { mac: ["Cmd", "T"] },
+        source: "https://safari.example/",
+      },
+    ],
+    keys: { windows: ["Ctrl", "T"], mac: ["Cmd", "T"] },
+  };
+  assert.deepEqual(getSupportedPlatforms(browserShortcut), ["windows", "mac"]);
+  assert.equal(getKeys(browserShortcut, "mac").join("+"), "Cmd+T");
+  assert.equal(matchesSearch(browserShortcut, "Safari"), true);
+  assert.equal(matchesSearch(browserShortcut, "Safari", "windows"), false);
+  assert.equal(matchesSearch(browserShortcut, "Safari", "mac"), true);
+  assert.equal(matchesSearch(browserShortcut, "Ctrl+T", "windows"), true);
+  assert.equal(matchesSearch(browserShortcut, "Ctrl+T", "mac"), false);
+  assert.deepEqual(getShortcutApps(browserShortcut, "windows"), [
+    "Google Chrome",
+  ]);
+  assert.deepEqual(getShortcutApps(browserShortcut, "mac"), [
+    "Google Chrome",
+    "Safari",
+  ]);
+  assert.deepEqual(getShortcutApps(browserShortcut), [
+    "Google Chrome",
+    "Safari",
+  ]);
 });
