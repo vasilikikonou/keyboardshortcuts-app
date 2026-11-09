@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:pages": "cross-env GITHUB_PAGES=true next build && node scripts/prepare-pages.mjs",
     "start": "next start",
     "lint": "eslint .",
-    "predeploy": "cross-env GITHUB_PAGES=true next build",
+    "predeploy": "npm run build:pages",
     "deploy": "gh-pages -d out -t"
   },
   "dependencies": {

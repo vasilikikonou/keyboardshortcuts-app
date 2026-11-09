@@ -49,8 +49,9 @@ import {
 
 type View = "discover" | "favorites" | "recent";
 type Collection = "all" | "beginner" | "popular";
-const HERO = "/images/keyboard-hero.webp";
-const PRACTICE = "/images/practice-keys.webp";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const HERO = `${basePath}/images/keyboard-hero.webp`;
+const PRACTICE = `${basePath}/images/practice-keys.webp`;
 function shortcutIds(shortcut: Shortcut) {
   return [shortcut.id, ...(shortcut.aliases ?? [])];
 }
