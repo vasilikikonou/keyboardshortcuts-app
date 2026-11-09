@@ -1,6 +1,7 @@
 name: React App CI/CD Pipeline
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -19,7 +20,7 @@ concurrency:
 
 jobs:
   lint-and-test:
-    name: Lint & Test Code
+    name: Validate & Build Code
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -34,10 +35,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-      # - name: Run Tests
-      #   run: npm run test -- --watchAll=false 
-
-      - name: Build App (Sanity Check)
+      - name: Build App and Validate TypeScript
         run: npm run build
 
   build-and-push:
@@ -75,7 +73,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: lint-and-test
     
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -104,4 +102,4 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 
+        uses: actions/deploy-pages@v4
